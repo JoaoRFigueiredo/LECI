@@ -1,0 +1,24 @@
+Resolução do exame modelo teórico - 1
+
+Ex1:
+a)cabb ∈ L1 (resposta certa, neste caso não pertence à língua L1)
+Existe transição para a palavra vazia, logo é não-determinista!
+
+
+
+b) foto
+
+
+c) foto
+
+
+d) abcc*(bb)*
+
+e) 1ª baixa
+
+
+f) obter uma expressão regular
+
+
+
+

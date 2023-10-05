@@ -1,0 +1,23 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>120</y><w>210</w><h>60</h></coordinates><panel_attributes>_Demo_
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>120</y><w>370</w><h>80</h></coordinates><panel_attributes>_Sky_
+--
+stars: Map&lt;StarTypeEnum, Map&lt;Integer, List&lt;Integer&gt; &gt; &gt; 
+--
+placeStar(starType: StarTypeEnum, x: int, y: int): void
+paint(Graphics graphics): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>390</y><w>210</w><h>70</h></coordinates><panel_attributes>_StarType_
+--
+draw(g: Graphics): void
+setStarPosition(x: int, y: int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>_StarTypeEnum_
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>520</y><w>210</w><h>60</h></coordinates><panel_attributes>_OStar_
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>520</y><w>210</w><h>60</h></coordinates><panel_attributes>_AStar_
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>450</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>450</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>320</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>190</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>140</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>140;10;10;10</additional_attributes></element></diagram>

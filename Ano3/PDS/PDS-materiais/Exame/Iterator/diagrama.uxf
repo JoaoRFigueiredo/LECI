@@ -1,0 +1,17 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>550</x><y>110</y><w>260</w><h>190</h></coordinates><panel_attributes>VectorGeneric&lt;E&gt;
+--
+-vec: E[]
+-nElem: int
+--
++addElem(elem: E): boolean
+-ensureSpace(): void
++removeElem(elem: E): boolean
++totalElem(): int
++getElem(i: int): E
++Iterator(): Iterator&lt;E&gt;
++listIterator(): ListIterator&lt;E&gt;
++listIterator(index: int): ListIterator&lt;E&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>110</y><w>350</w><h>190</h></coordinates><panel_attributes>Demo
+--
++main(args: String[]): void
++printNext(itName: String, it: Iterator&lt;Integer&gt;): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>180</y><w>230</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element></diagram>

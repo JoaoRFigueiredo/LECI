@@ -1,0 +1,37 @@
+toast           5     (7, 5)    Down-right
+distinct        8     (3, 8)    Right    
+bay             3     (7, 4)    Down     
+defend          6     (4, 3)    Down     
+camp            4     (19, 13)  Right    
+try             3     (12, 20)  Down     
+crystal         7     (7, 7)    Up       
+variation       9     (10, 12)  Down     
+craft           5     (1, 12)   Right    
+he              2     (8, 15)   Down-right
+score           5     (6, 16)   Up       
+bike            4     (6, 8)    Down-right
+infrastructure  14    (15, 9)   Up       
+hunter          6     (13, 6)   Up-right 
+party           5     (5, 1)    Down     
+loose           5     (9, 15)   Down     
+
+JHXIOWLEOKSCRAFTJNRV
+PWZVNNANIGAGTIHEGCSG
+IKFHGNTDISTINCTROVDE
+QQDKLOSTPAGZEJMOKTGG
+PDENEKYNDCOHWKMCGGWA
+AGFSURRBEUAGFSYSYYLH
+RPEBTCCZIYGAWEWIDYSQ
+TINAPOQKCKRBUWHEYSTR
+YODYMTAUYEEUAPLEZXTR
+HVNGVEOSTHPVXOOOPFST
+ZLTSPELNTYMANUOAESWX
+MZLWBSUPNOURTNSJKBPT
+LMXYKHQKGWQIHUEXDWIR
+FFEDGXJVPJLAWAZAXRWY
+CHCTFNIPFKCTDKTBCGSN
+MSWSLLMMUKOIYAFRJQZN
+OCURHVFLMMQOGKYNGRBJ
+DABXGFUJPZTNDAQQUPRJ
+NWHQFCJYOOOJCAMPHFXP
+TMMEQUCQYCSBWESFLSFP

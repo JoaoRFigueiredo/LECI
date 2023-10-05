@@ -1,0 +1,56 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>201</y><w>210</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Contacts
+--
+-number: int
+-name: String
+--
++Contact(String,int)
+getName():String
+getNumber():int
+toString():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1020</x><y>41</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+binParser
+--
+-fname: String
+--
++binParser(String)
+loadContact():List&lt;Contact&gt;
+saveContacts(List&lt;Contact&gt;):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>381</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Java Interface&gt;&gt;
+ContactsStorageInterface
+--
+loadContact():List&lt;Contact&gt;
+saveContacts(List&lt;Contact&gt;):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>601</y><w>210</w><h>170</h></coordinates><panel_attributes>&lt;&lt;Java Interface&gt;&gt;
+ContactsInterface
+--
+openAndLoad(ContactsStorageInterface):void
+saveAndClose():void
+saveAndClose(ContactsStorageInterface):void
+exist(Contact):boolean
+getByName(String)
+add(Contact):boolean
+removeContact):boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>41</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+TxtParser
+--
+-fname: String
+--
++TxtParser(String)
+loadContact():List&lt;Contact&gt;
+saveContacts(List&lt;Contact&gt;):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>621</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Main
+--
++Main
+main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>361</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+ContactInterImplementation
+--
+--
++ContactInterImplementation()
+openAndLoad(ContactsStorageInterface):void
+saveAndClose():void
+saveAndClose(ContactsStorageInterface):void
+exist(Contact):boolean
+getByName(String)
+add(Contact):boolean
+removeContact):boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>150</y><w>210</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>190;230;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>960</x><y>150</y><w>190</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;230;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>470</y><w>230</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;130;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>270</y><w>150</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;10;130;160</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>430</y><w>270</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes><additional_attributes>250;10;10;20</additional_attributes></element></diagram>

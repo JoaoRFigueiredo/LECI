@@ -1,0 +1,17 @@
+show 100000000000000000000;           # Print a very large number
+(716257652576157162) -> c;             # Assign the number to the variable c
+show c;                              # Print the content of the variable c
+-c -> c;                              # Unary minus (negation)
+show c;
+c + 42 -> c;                          # Addition
+show c;
+c - 10 -> c;                          # Subtraction
+show c;
+c * 2 -> c;                           # Multiplication
+show c;
+c div 5 -> c;                           # Division
+show c;
+c mod 7 -> c;                           # Modulus
+show c;
+(c + 10) * 2 div 3 -> c;                # Expression with addition, multiplication, and division
+show c;

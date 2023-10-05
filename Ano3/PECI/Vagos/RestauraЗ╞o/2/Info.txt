@@ -1,0 +1,16 @@
+Nome -> Grémio Restaurante-Bar
+
+Tipo de estabelecimento -> Restaurante ; Bar ; Snack-Bar
+
+Ementa:
+
+Horário -> Todos os dias | 12:00–23:00 excepto Domingo | 12:00–15:00
+
+Descrição -> A capacidade do restaurante é de cerca de 145 lugares distribuídos por duas salas equipadas com ar condicionado, música ambiente e decorada com quadros de artistas locais. Uma sala mais indicada para refeições familiares, ocasionais ou até românticas. Outra mais indicada para eventos previamente organizados, refeições de negócios e jantares de empresa ou grupo.
+
+Imagens:
+
+Latitude -> 40.54824237457432
+Longitude -> -8.679095365028095
+
+Promoções -> Apenas nos feriados.

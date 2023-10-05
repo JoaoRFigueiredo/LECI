@@ -1,0 +1,6 @@
+*COM* p1.txt
+display 2+3i;   *COM* escreve na consola o numero 2+3i
+display 4;      *COM* escreve na consola o numero 4
+display i;      *COM* escreve na consola o numero i
+c <= 4.3-i;     *COM* guarda o numero 4.3-i na variavel c
+display c;      *COM* escreve na consola o numero armazenado na variável c

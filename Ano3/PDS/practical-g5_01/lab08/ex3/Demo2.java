@@ -1,0 +1,51 @@
+import java.awt.Color;
+
+import startypes.*;
+
+public class Demo2 {
+    static int CANVAS_SIZE = 1200;
+    static int STARS_TO_DRAW = 1000000;
+    
+    public static void main(String[] args) {
+        Sky2 sky = new Sky2();
+
+        // https://astrobackyard.com/wp-content/uploads/2020/03/types-of-stars.jpg
+        char[] starTypes = {'O', 'B', 'A', 'F', 'G', 'K', 'M'};
+        char type;
+
+		Runtime runtime = Runtime.getRuntime();
+		long before = runtime.totalMemory() - runtime.freeMemory();
+
+        for (int i = 0; i < STARS_TO_DRAW; i++) {
+            type = starTypes[random(0, starTypes.length-1)];
+            sky.placeStar(type, random(0, CANVAS_SIZE), random(0, CANVAS_SIZE));
+        }
+        sky.setSize(CANVAS_SIZE, CANVAS_SIZE);
+        sky.setBackground(Color.BLACK);
+        sky.setVisible(true);
+
+        long after = runtime.totalMemory() - runtime.freeMemory();
+		System.out.println("Used memory: " + (after - before) / 1024 / 1024 + " MB");
+
+    }
+
+    // private static StarType2 createStar(char type) {
+    //     int x = random(0, CANVAS_SIZE);
+    //     int y = random(0, CANVAS_SIZE);
+    //     StarType2 star=null;
+    //     switch (type) {
+    //     case 'O' : star = new OStar2(x, y); break;
+    //     case 'A' : star = new AStar2(x, y); break;
+    //     case 'B' : star = new BStar2(x, y); break;
+    //     case 'F' : star = new FStar2(x, y); break;
+    //     case 'G' : star = new GStar2(x, y); break;
+    //     case 'K' : star = new KStar2(x, y); break;
+    //     case 'M' : star = new MStar2(x, y); break;
+    //     }
+    //     return star;
+    // }
+
+	private static int random(int min, int max) {
+        return min + (int) (Math.random() * ((max - min) + 1));
+    }
+}

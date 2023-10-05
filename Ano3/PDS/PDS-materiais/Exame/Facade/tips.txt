@@ -1,0 +1,9 @@
+Usa o meu 
+BAnkaccountProxy (v1b)
+BAnkAccont interface
+BAnkAccontImpl
+no company mete a parte dos cartoes mas a parte dos employees deve tar bem
+o person tb deve servir  ly bb
+
+
+BD quarta?

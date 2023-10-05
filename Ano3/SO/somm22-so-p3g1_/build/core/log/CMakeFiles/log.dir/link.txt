@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/liblog.a CMakeFiles/log.dir/log.cpp.o CMakeFiles/log.dir/log_open.cpp.o CMakeFiles/log.dir/log_close.cpp.o CMakeFiles/log.dir/log_event.cpp.o
+/usr/bin/ranlib /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/liblog.a

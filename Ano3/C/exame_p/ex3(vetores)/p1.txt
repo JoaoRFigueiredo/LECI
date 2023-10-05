@@ -1,0 +1,7 @@
+# p1.txt
+show [1,2];     # escre
+[3] -> v1;      #come
+show v1;        #cewc
+show 3;         #ewwc
+5.5 -> e1;      #ecwc
+show e1;        #weconwic

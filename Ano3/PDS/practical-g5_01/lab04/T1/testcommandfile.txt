@@ -1,0 +1,5 @@
+I flight1.txt
+M TP1920 
+R TP1920 T 3
+C TP1920:2
+

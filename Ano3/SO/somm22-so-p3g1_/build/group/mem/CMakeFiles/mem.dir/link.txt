@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libmem.a CMakeFiles/mem.dir/mem.cpp.o CMakeFiles/mem.dir/mem_init.cpp.o CMakeFiles/mem.dir/mem_alloc.cpp.o CMakeFiles/mem.dir/mem_ff_alloc.cpp.o CMakeFiles/mem.dir/mem_nf_alloc.cpp.o CMakeFiles/mem.dir/mem_bf_alloc.cpp.o CMakeFiles/mem.dir/mem_wf_alloc.cpp.o CMakeFiles/mem.dir/mem_free.cpp.o CMakeFiles/mem.dir/mem_print.cpp.o CMakeFiles/mem.dir/mem_getters.cpp.o CMakeFiles/mem.dir/mem_policy_as_string.cpp.o
+/usr/bin/ranlib /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libmem.a

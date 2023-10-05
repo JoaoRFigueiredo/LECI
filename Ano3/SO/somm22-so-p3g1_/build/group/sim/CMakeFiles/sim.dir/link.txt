@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libsim.a CMakeFiles/sim.dir/sim.cpp.o CMakeFiles/sim.dir/sim_init.cpp.o CMakeFiles/sim.dir/sim_check_syntax.cpp.o CMakeFiles/sim.dir/sim_run.cpp.o CMakeFiles/sim.dir/sim_getters.cpp.o
+/usr/bin/ranlib /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libsim.a

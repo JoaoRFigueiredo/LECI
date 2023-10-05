@@ -1,0 +1,11 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>170</x><y>80</y><w>210</w><h>70</h></coordinates><panel_attributes>_*Employee*_
+--
+-name: String
+--
++getName(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>270</y><w>210</w><h>30</h></coordinates><panel_attributes>_NullEmployee_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>270</y><w>210</w><h>30</h></coordinates><panel_attributes>_Programmer_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>80</y><w>210</w><h>70</h></coordinates><panel_attributes>_EmployeeFactory_
+--
+-names: String[]
+--
++getEmployee(): Employee</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>110</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>180;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>140</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>140</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>

@@ -1,0 +1,16 @@
+Nome -> Tasca do Migas
+
+Tipo de estabelecimento -> Restaurante
+
+Ementa:
+
+Horário -> Todos os dias | 08:00–15:00
+
+Descrição -> Bom atendimento, comida bem confeccionada. Espaço agradável, pouca clientela na hora do almoço. Diária a bom preço. Não tem multibanco.
+
+Imagens:
+
+Latitude -> 40.55193006609533
+Longitude -> -8.680170852098028
+
+Promoções -> Diárias às Quartas-feiras a 87% do preço

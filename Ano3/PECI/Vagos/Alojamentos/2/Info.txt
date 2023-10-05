@@ -1,0 +1,16 @@
+Nome -> Vagos Art.Lab
+
+Descrição -> O Vagos Art.Lab está localizado em Vagos e é um alojamento com um jardim e um terraço. Entre as comodidades nesta propriedade, conta-se uma cozinha partilhada, um salão partilhado e acesso Wi-Fi gratuito em todas as áreas. A casa de hóspedes apresenta quartos familiares.
+
+Tipo de Quartos ->Todos os quartos da casa de hóspedes têm uma área de estar. Os quartos beneficiam ainda de uma casa de banho privativa, de um secador de cabelo e de roupa de cama.
+
+Preço dos Quartos -> 70 euros/noite
+
+Serviços disponíveis -> Os hóspedes do Vagos Art.Lab poderão desfrutar de um pequeno-almoço continental. O alojamento também providencia um centro de negócios e estacionamento privado gratuito.
+
+Imagens:
+
+Promoções -> Tem direito a um desconto Genius em Vagos Art.Lab! 
+
+Latitude -> 40.56978223130502
+Longitude ->  -8.686420098089021

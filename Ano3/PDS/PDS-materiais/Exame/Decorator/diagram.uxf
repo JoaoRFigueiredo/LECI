@@ -1,0 +1,54 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>740</x><y>440</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v1.v1c
+Manager
+--
++Manag(EmpInterface)
+start(Date):void
+terminate(Date):void
+work():void
+manage():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1030</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v1.v1c
+Teammember
+--
++Teammember(EmpInterface)
+start(Date):void
+terminate(Date):void
+work():void
+colaborate():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1290</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v1.v1c
+TeamLeader
+--
++TeamLeader(EmpInterface)
+start(Date):void
+terminate(Date):void
+work():void
+plan():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1010</x><y>140</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v1.v1c
+Decorator
+--
++Decorator(EmpInterface)
+start(Date):void
+terminate(Date):void
+work():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>350</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Interface&gt;&gt;
+Package::v1.v1c
+EmpInterface
+--
+start(Date):void
+terminate(Date):void
+work():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>60</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v1.v1c
+Employee
+--
+-name:String
+-startW: Date
+-endW:Date
+--
++Employee(String)
+start(Date):void
+terminate(Date):void
+work():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>250</y><w>670</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;160;650;10</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>280</y><w>680</w><h>190</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes><additional_attributes>10;170;660;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>240</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;110;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>320</y><w>230</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>1180</x><y>320</y><w>200</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;130</additional_attributes></element><element><id>Relation</id><coordinates><x>1110</x><y>320</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>20;10;10;130</additional_attributes></element></diagram>

@@ -1,0 +1,2 @@
+fromStream -> fromFileName(file)
+criar um for loop (itera pelos args) e

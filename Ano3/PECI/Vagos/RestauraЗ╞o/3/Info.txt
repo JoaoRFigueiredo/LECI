@@ -1,0 +1,16 @@
+Nome -> Jardim do Ega
+
+Tipo de estabelecimento -> Restaurante ; Bar ; Snack-Bar ; Café
+
+Ementa:
+
+Horário -> Todos os dias | 10:00–20:00 excepto Terça-feira | Encerrado
+
+Descrição -> Ideal para beber um café e dar um passeio no parque Municipal.
+
+Imagens:
+
+Latitude -> 40.55770954133145
+Longitude -> -8.67791658375771
+
+Promoções -> Brevemente

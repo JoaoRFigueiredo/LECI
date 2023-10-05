@@ -1,0 +1,20 @@
+Nome -> Museu do Brincar (MdB)
+
+História -> Este museu tem uma lógica inovadora e singular do seu conteúdo expositivo, que o permite aproximar-se do imaginário infantil e das boas recordações dos adultos.
+
+Estilo arquitetónico -> Para além da visita às coleções expostas, o Museu do Brincar possui uma interação física com os conteúdos, e com o espaço, que permite aos utentes tocar, manusear os brinquedos e até mesmo construir os seus próprios brinquedos.
+
+Acessibilidade -> Acessível a todos.
+
+Horário -> Terça-feira a domingo | 10H00 > 12H30 - 14H00 > 17H30 Segunda-feira e Dias de Feriado Nacional | Encerrado
+
+Preço -> Gratuito
+
+Atividades -> Para além da visita às coleções expostas, aqui poderão manusear os brinquedos e até mesmo construir os seus próprios brinquedos.
+
+Visitas guiadas? -> Não
+
+Imagens:
+
+Latitude -> 40.5508998652659
+Longitude ->  -8.676647719422451

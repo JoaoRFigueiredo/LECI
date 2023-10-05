@@ -1,0 +1,34 @@
+/Users/gabrielhall/Documents/UA/2ºAno/PDS/TestePratico/pds_2021_AP
+
+
+Alínea 2 (exemplo de output) ----------------------------------
+
+
+--- Campers disponíveis :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+Camper van com quatro lugares, 2 camas, mesa.
+Camper van com dois lugares, 1 cama, cozinha, mesa, WC.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+
+
+--- Pedidos :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. pedida por Marco Silva
+Camper van com dois lugares, 1 cama, cozinha, mesa, WC. pedida por Joana Inácio
+Tenda de tejadilho para duas pessoas, de montagem rápida. pedida por Carolina Marques
+Camper van com quatro lugares, 2 camas, mesa. pedida por Telmo Sousa
+
+Pedido de Marco Silva para MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.: Aceite
+Pedido de Joana Inácio para Camper van com quatro lugares, 2 camas, mesa.: Aceite
+Pedido de Carolina Marques para Camper van com dois lugares, 1 cama, cozinha, mesa, WC.: Aceite
+Pedido de Telmo Sousa para Tenda de tejadilho para duas pessoas, de montagem rápida.: Rejeitado
+
+--- Campers disponíveis :
+
+
+Devolucao de MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. devolvida por Marco Silva
+
+--- Campers disponíveis :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+
+
