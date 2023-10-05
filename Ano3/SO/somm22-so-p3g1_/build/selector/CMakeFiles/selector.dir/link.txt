@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libselector.a CMakeFiles/selector.dir/selector.cpp.o CMakeFiles/selector.dir/sim.cpp.o CMakeFiles/selector.dir/pct.cpp.o CMakeFiles/selector.dir/peq.cpp.o CMakeFiles/selector.dir/mem.cpp.o
+/usr/bin/ranlib /home/joao/Desktop/ECI-Ano-3/SO/somm22-so-p3g1/lib/libselector.a

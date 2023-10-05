@@ -1,0 +1,33 @@
+frozen          6     (8, 3)    Down-right
+right           5     (3, 6)    Right    
+poetry          6     (13, 12)  Up-right 
+district        8     (4, 8)    Right    
+bus             3     (9, 9)    Up-left  
+mask            4     (1, 17)   Right    
+carry           5     (3, 14)   Right    
+Xray            4     (10, 10)  Right    
+smash           5     (16, 10)  Up       
+production      10    (19, 19)  Left     
+undress         7     (14, 13)  Right    
+concern         7     (13, 15)  Up       
+
+IGKOGSVVIXFXUOHTMASK
+LBJBFXOOYMEJHBFSEUGK
+XSYKLRIGHTCMNCARRYXS
+HYMWJPBDISTRICTFHBVZ
+NATVLVSEQCNJUIQUSBRR
+DQDQJFUZPDVGCYZSRQBN
+WOXIGISNUSBUWZMDCGTI
+SCFROCFUUXUYBNMAYOCD
+XDGRGKXZBYVJLSDRRYDN
+GQAAOZBAGXRAYGTDWBSA
+KRLPKZSUCVNXJENCTZUA
+QNNVTMESWHWTOKRQJWZU
+PVOVCJJNGSVPMXSABKDM
+NACCZRFBNABQUNDRESSA
+CHZRNKLYGMUJDJEVOQRN
+BMTELBKWWSBCETJMOBTP
+BJKGFJWFDCDSMXVETQKG
+OZNQRIHGWNWEKNFGJOJK
+QORPAVBSMNOITCUDORPK
+YMYLQAJZKVZUYOMHKRVP
