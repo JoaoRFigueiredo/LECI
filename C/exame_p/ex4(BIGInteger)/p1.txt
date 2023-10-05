@@ -1,0 +1,4 @@
+# p1.txt
+show 100000000000000000000;     #escreve na consola um numero muito grande
+716257652576157162 -> c;    #atribui o numero à variável
+show c;                     #escreve na consola o conteudo da variavel consola

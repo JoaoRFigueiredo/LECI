@@ -1,0 +1,12 @@
+// p15.txt
+print "Bom dia!"  // escreve na consola a expressão "Bom dia!"
+t1 : "Miguel"     // define variável t1 com o conteúdo "Miguel"
+print t1            // escreve na consola o conteúdo da expressão t1
+t3: "a" + "b"
+print t3
+t4: "abbcc" - "b"
+print t4
+t5: trim "       bbbbbb     "
+print t5
+print (t1/"i"/"iii")           // substitui o texto "i" no conteúdo de t1 por "iii" e escreve o
+

@@ -1,0 +1,6 @@
+*COM* p3.txt
+display re(i-4+5i+8);   *COM* 4
+display im(i-4+5i+8);   *COM* 6
+display (i-4+5i+8)*;    *COM* 4-6i
+display (4-6i)*;
+display |(i-4+5i+8)|;   *COM* algo entre 7 e 8
