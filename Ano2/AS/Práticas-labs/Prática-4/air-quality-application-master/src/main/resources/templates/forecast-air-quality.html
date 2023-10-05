@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AirQuality - Forecast</title>
+
+    <!-- Custom CSS -->
+    <link th:href="@{css/style.css}" rel="stylesheet">
+    <link th:href="@{css/style2.css}" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+     data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div class="page-wrapper">
+        <div class="page-breadcrumb">
+            <div class="row align-items-center top-bar">
+                <div class="col-12">
+                    <h2 class="page-title">Forecast Data</h2>
+                    <h3 th:text="${location.city} + ', ' + ${location.region} + ', ' +${location.country}"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="table-responsive" th:if="${ not#lists.isEmpty(airQualities)}">
+                            <table class="table v-middle">
+                                <thead>
+                                    <tr >
+                                        <th class="border-top-0">CO</th>
+                                        <th class="border-top-0">NO</th>
+                                        <th class="border-top-0">NO2</th>
+                                        <th class="border-top-0">O3</th>
+                                        <th class="border-top-0">SO2</th>
+                                        <th class="border-top-0">PM2.5</th>
+                                        <th class="border-top-0">PM10</th>
+                                        <th class="border-top-0">NH3</th>
+                                        <th class="border-top-0">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each="airQuality : ${airQualities}">
+                                    <td th:text="${airQuality.co}" th:classappend="${(airQuality.co > 400 ? 'bad' : '') + (airQuality.co > 200 ? ' weak' : '') + (airQuality.co > 140 ? ' medium' : '') + (airQuality.co > 100 ? ' good' : 'very-good')}"></td>
+                                    <td th:text="${airQuality.no}"></td>
+                                    <td th:text="${airQuality.no2}" th:classappend="${(airQuality.no2 > 240 ? 'bad' : '') + (airQuality.no2 > 180 ? ' weak' : '') + (airQuality.no2 > 120 ? ' medium' : '') + (airQuality.no2 > 60 ? ' good' : 'very-good')}"></td>
+                                    <td th:text="${airQuality.o3}" th:classappend="${(airQuality.o3 > 120 ? 'bad' : '') + (airQuality.o3 > 50 ? ' weak' : '') + (airQuality.o3 > 35 ? ' medium' : '') + (airQuality.o3 > 20 ? ' good' : 'very-good')}"></td>
+                                    <td th:text="${airQuality.so2}" th:classappend="${(airQuality.so2 > 500 ? 'bad' : '') + (airQuality.so2 > 350 ? ' weak' : '') + (airQuality.so2 > 210 ? ' medium' : '') + (airQuality.so2 > 140 ? ' good' : 'very-good')}"></td>
+                                    <td th:text="${airQuality.pm25}"></td>
+                                    <td th:text="${airQuality.pm10}" th:classappend="${(airQuality.pm10 > 10000 ? 'bad' : '') + (airQuality.pm10 > 8500 ? ' weak' : '') + (airQuality.pm10 > 7000 ? ' medium' : '') + (airQuality.pm10 > 5000 ? ' good' : 'very-good')}"></td>
+                                    <td th:text="${airQuality.nh3}"></td>
+                                    <td th:text="${airQuality.dt}"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer text-center">
+            Duarte Mortágua. TQS 2021.
+        </footer>
+    </div>
+</div>
+</body>
+</html>

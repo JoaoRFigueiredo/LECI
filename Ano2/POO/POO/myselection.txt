@@ -1,0 +1,4 @@
+Name                                    Score               Rating              Genre               Running Time        
+Deliver Us From Eva                     61,80               R                   comedy              105                 
+Intolerable Cruelty                     67,10               PG-13               comedy              100                 
+Matchstick Men                          68,90               PG-13               comedy              116                 

@@ -1,0 +1,44 @@
+Cidade              Nº de vezes         
+Lisboa              11                  
+Madrid              9                   
+Paris, Orly         8                   
+Geneva              6                   
+Brussels            4                   
+Madeira             4                   
+London, Gatwick     3                   
+Frankfurt           3                   
+Barcelona           3                   
+Luxembourg          2                   
+Zurich              2                   
+Clermont-Ferrand    2                   
+Milan, Malpensa     2                   
+Basel               2                   
+London, Stansted    2                   
+Paris, Beauvais     2                   
+Paris, Ch. de Gaulle2                   
+Faro                2                   
+Istanbul, Ataturk   1                   
+Rome, Fiumicino     1                   
+Milan/Bergamo       1                   
+Manchester          1                   
+São Paulo, Guarulhos1                   
+Toronto, Pearson    1                   
+Frankfurt, Hahn     1                   
+Brussels, Charleroi 1                   
+Memmingen           1                   
+Hamburg             1                   
+Lille               1                   
+Amsterdam           1                   
+Marseille           1                   
+Tenerife Sur        1                   
+Luanda              1                   
+Palma Mallorca      1                   
+Toulouse, Blagnac   1                   
+Lyon, St. Exupery   1                   
+Saint Etienne       1                   
+Carcassonne         1                   
+Paris, Vatry        1                   
+Ponta Delgada       1                   
+Valencia            1                   
+Eindhoven           1                   
+London, Luton       1                   

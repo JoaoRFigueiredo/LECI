@@ -1,0 +1,2 @@
+Min	Max	Media
+1	412	50.85

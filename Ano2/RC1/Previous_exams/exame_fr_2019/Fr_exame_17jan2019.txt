@@ -1,0 +1,75 @@
+1ª Parte-----------------
+
+
+
+1)-Não calha
+
+2)-Não calha
+
+3)-Os terminais ao tentarem comunicarem com outros terminais(ligados a outros switches) "irão pedir" ao switch que os encaminhe. Mas num cenário inicial, este não conhece nada (tem a sua tabela vazia), portanto faz flood. Ao fazer flood para os switches ligados a ele, o switch 13 fica a conhecer que os terminais ligados ao sw 15 são acessíveis através da sua porta 3.
+
+4)-173.0.128.0/23, mascara de 23 bits --> 2^9 endereços disponiveis (512)
+Poderíamos fazer esta partição:
+	173.0.128.0/24 --> Temos o suficiente para os 200 servidores (256 ips disponiveis, 1 para a netword e outro para o broadcast, portanto, 254 hots disponiveis).
+	
+	36+2 = 38 --> 64(2^n mais proximo de 38)
+	Para assegurar os 36 sistemas de video-conferência, 173.0.129.0/26 (64 endereços disponiveis)
+	Os restantes serão usados na pool de endereços do nat no router 1 ou seja, 
+	173.0.129.64/25 --> 128 endereços disponiveis
+	Ainda temos 64 endereços disponiveis que poderao ser atribuidos a outros serviços, caso necessário.
+
+
+5)-Usar o mecanismo Nat no router, assim, os ips de cada servidor mais as suas portas são traduzidas para um ip publico (pertencente à pool da nat) mais a porta.
+
+6)-Fast Retransmission, ou seja, sempre que recebe 3 acks duplicados, este terminal "aperceb-se" que o pacote não chegou, então, reenvia-o.(antes de haver um timeout)
+
+7)-1 mensagem com 1960 bytes, campo id = 555, mtu = 100 bytes
+
+			id	tamanho		offset		flag
+
+1º fragmento -->	555	20+8+972	0		1
+
+2º fragmento -->	555	20+980		980		1
+
+3º fragmento -->	555	20+8		1960		0
+
+O tamanho do primeiro pacote diz respeito a 20 bytes de cabeçalho ip, 8 bytes de icmp e 972 bytes de dados.
+O 2º fragmento  possui um tamanho de 1000 bytes, 20 de cabeçalho ip e 980 e dados.
+Por fim, como faltam 8 bytes de dados, estes são enviados no 3º ( e último) fragmento. Os campos id são todos os mesmos, significando que pertencem à mesma mensagem.
+
+-----------------------------------
+2ª Parte
+----------------------------
+
+
+
+1)- não calha
+
+2)-Portanto, o router 3 deverá ter na sua tabela de routing, que o próximo hop para chegar um ip da rede internet será para 10.0.0.1 através da sua interface f1/0 e posteriormente a mesma lógica é aplicada ao router 1.
+
+
+3)-Não démos/calha
+
+4)-Teria de ser definido manualmente.
+
+5)-Primeiro teríamos de criar o domínio e associa-lo a uma máquina/endereço ip. definiriamos este servidor de dns e zona como mestre com o dominio criado. Posteriormente,  num ficheiro adicionariamos os registos de dns, ou seja, poderámos adicionar extensões ao nosso domínio (www. / sitea/, etc) ou até subdomínios (do género: subdomain.domain.com) e associar cada um à máquina/endereço de ip. Por fim, para garantir que terminais de fora (clientes), consigam comunicar com o servidor dns, estes teriam de associar a máquina do domínio como o servidor de dns.
+
+6)- Num ficheiro db.domain (domain = nome do domínio), onde se guardariam os registos dns. Poderemos associar nomes a endereços (terminais).
+
+7)-LanB --> Vlan23
+	a)Mss = 1400, congestionWind = 4200 bytes, buffer de receção de 2000 bytes(Vlan23)
+	Ao enviar-mos pacotes de 200 bytes, a lanB pode enviar, logo apó o ínicio da sessão e sem receber um ack, min(4200, 2000)/200 = 2000/200 = 10 pacotes de 200 bytes.
+
+	b)-Caso sejam pacotes enviados pelo Vlan23: após receber 3 acks duplicados, ele considera o pacote perdido e reenvia-o
+	Caso sejam ack enviados, que nunca chegaram, pelo vlan23, o lanB apercebe-se e reenvia o pacote.
+
+	c)-ultimo ack enviado pela vlan23 = 10200. Portanto a quantidade total de dados enviados pela lanb é igual a 10200-2000 -1 -1 = 8198 bytes.
+
+8)- Não inicia, porque todos os pares ip, port já foram esgotados. Tal, como diz na pergunta, " em todos os seus ips". Para que funcionasse, um destes pares teria de ser libertado.
+
+9)-não demos
+
+
+
+
+	

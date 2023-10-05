@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AirQuality - Forecast</title>
+
+    <!-- Custom CSS -->
+    <link th:href="@{css/style.css}" rel="stylesheet">
+    <link th:href="@{css/style2.css}" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+     data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div class="page-wrapper">
+        <div class="page-breadcrumb">
+            <div class="row align-items-center top-bar">
+                <div class="col-12">
+                    <h3 class="page-title">Cache Statistics</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table v-middle">
+                                <thead>
+                                <tr >
+                                    <th class="border-top-0">Cache Type</th>
+                                    <th class="border-top-0">Total Requests</th>
+                                    <th class="border-top-0">Hits</th>
+                                    <th class="border-top-0">Misses</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td th:text="${currentDayCache.cacheType}"></td>
+                                    <td th:text="${currentDayCache.requests}"></td>
+                                    <td th:text="${currentDayCache.hits}"></td>
+                                    <td th:text="${currentDayCache.misses}"></td>
+                                </tr>
+                                <tr>
+                                    <td th:text="${historicalCache.cacheType}"></td>
+                                    <td th:text="${historicalCache.requests}"></td>
+                                    <td th:text="${historicalCache.hits}"></td>
+                                    <td th:text="${historicalCache.misses}"></td>
+                                </tr>
+                                <tr>
+                                    <td th:text="${forecastCache.cacheType}"></td>
+                                    <td th:text="${forecastCache.requests}"></td>
+                                    <td th:text="${forecastCache.hits}"></td>
+                                    <td th:text="${forecastCache.misses}"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer text-center">
+            Duarte Mortágua. TQS 2021.
+        </footer>
+    </div>
+</div>
+</body>
+</html>

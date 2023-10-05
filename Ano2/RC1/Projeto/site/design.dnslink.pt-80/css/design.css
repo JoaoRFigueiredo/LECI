@@ -1,0 +1,82 @@
+
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  html {
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 42px 42px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 42px 42px;
+  }
+
+  .horizontal-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+  .text-box
+  {
+
+
+      text-align:center;
+      line-height: 50px;
+      padding-right:30px;
+      padding-left: 30px;
+      transition: 0.2s;
+      border:3px solid black;
+      border-radius: 50px;
+      background-color: white;
+      transition: 1s;
+
+      
+  }
+
+  .text-box:hover{
+      transition: 1s;
+      border-radius:70px;
+      background-color: aliceblue;
+  }
+
+  .text-title
+  {
+      font-size:40px;
+
+  }
+
+  .text-normal
+  {
+      font-size:25px;
+      
+  }
+
+  .img
+  {
+      width:400px;
+  }
+
+  .text-link
+  {
+      color:blue;
+      transition: 1s;
+      display:inline-block;
+      
+  }
+
+  .text-link:hover
+  {
+      transition: 1s;
+      text-decoration:underline;
+      color:rgb(0, 0, 104);
+      cursor:pointer;
+  }
+

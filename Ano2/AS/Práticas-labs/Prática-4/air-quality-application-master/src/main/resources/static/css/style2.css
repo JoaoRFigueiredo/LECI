@@ -1,0 +1,49 @@
+.very-good {
+    color: #007f5f;
+}
+
+.good {
+    color: #55a630;
+}
+
+.medium {
+    color: #e9c46a;
+}
+
+.weak {
+    color: #f4a261;
+}
+
+.bad {
+    color: #e76f51;
+}
+
+thead {
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+
+tbody {
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+
+.card {
+    background-color: transparent;!important;
+}
+
+body {
+    color: white!important;
+}
+
+.page-breadcrumb {
+    padding: 0!important;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.8)!important;
+    padding: 10px;
+}
+
+#main-card {
+    background-color: rgba(0, 0, 0, 0.8)!important;
+}
+

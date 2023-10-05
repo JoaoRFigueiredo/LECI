@@ -1,0 +1,34 @@
+# Workflow name
+name: Feature Branch
+
+# Run this workflow whenever new code is pushed 
+# onto a branch that is not master or does not start
+# with a name release
+on:
+  push:
+    branches-ignore:
+      - 'master'
+      - 'release*'
+
+# What to do
+jobs:
+
+  test:
+    name: Unit Test
+    runs-on: ubuntu-18.04
+
+    steps:
+      # This action checks-out your repository under $GITHUB_WORKSPACE,
+      # so your workflow can access it.
+      - uses: actions/checkout@v1
+      - name: Set up JDK 11
+      # Action to set up Java version
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.11
+      - name: Maven Package
+      # Compiling
+        run: mvn -B clean package -DskipTests
+      - name: Maven Verify
+      # Running unit tests
+        run: mvn -B clean verify

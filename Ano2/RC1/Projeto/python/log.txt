@@ -1,0 +1,201 @@
+[2022-01-24 22:06:16.647097] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:07:28.750130] SESSION ENDED
+[2022-01-24 22:06:53.766902] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:07:17.231490] new client : <socket.socket fd=1348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58651)>
+[2022-01-24 22:07:17.231490] From client ('127.0.0.1', 58651): cpu usage -> 1.2, memory usage -> 5938319360 bytes.
+[2022-01-24 22:07:17.734513] From client ('127.0.0.1', 58651): cpu usage -> 1.6, memory usage -> 5934182400 bytes.
+[2022-01-24 22:07:18.246276] From client ('127.0.0.1', 58651): cpu usage -> 9.8, memory usage -> 5931737088 bytes.
+[2022-01-24 22:07:18.761353] From client ('127.0.0.1', 58651): cpu usage -> 14.3, memory usage -> 5931433984 bytes.
+[2022-01-24 22:07:19.277217] From client ('127.0.0.1', 58651): cpu usage -> 13.5, memory usage -> 5930520576 bytes.
+[2022-01-24 22:07:21.177336] From client ('127.0.0.1', 58651): cpu usage -> 3.8, memory usage -> 5930471424 bytes.
+[2022-01-24 22:07:21.693979] From client ('127.0.0.1', 58651): cpu usage -> 9.2, memory usage -> 5944492032 bytes.
+[2022-01-24 22:07:22.200913] From client ('127.0.0.1', 58651): cpu usage -> 5.4, memory usage -> 5946339328 bytes.
+[2022-01-24 22:07:22.711197] From client ('127.0.0.1', 58651): cpu usage -> 4.5, memory usage -> 5950767104 bytes.
+[2022-01-24 22:07:23.221884] From client ('127.0.0.1', 58651): cpu usage -> 14.5, memory usage -> 5953724416 bytes.
+[2022-01-24 22:07:23.733005] From client ('127.0.0.1', 58651): cpu usage -> 19.1, memory usage -> 5953712128 bytes.
+[2022-01-24 22:07:24.245213] From client ('127.0.0.1', 58651): cpu usage -> 11.4, memory usage -> 5947392000 bytes.
+[2022-01-24 22:07:24.761477] From client ('127.0.0.1', 58651): cpu usage -> 21.1, memory usage -> 5945393152 bytes.
+[2022-01-24 22:07:25.274033] From client ('127.0.0.1', 58651): cpu usage -> 2.3, memory usage -> 5945004032 bytes.
+[2022-01-24 22:07:25.786644] From client ('127.0.0.1', 58651): cpu usage -> 3.0, memory usage -> 5953564672 bytes.
+[2022-01-24 22:07:26.290381] From client ('127.0.0.1', 58651): cpu usage -> 0.8, memory usage -> 5953040384 bytes.
+[2022-01-24 22:07:26.810271] From client ('127.0.0.1', 58651): cpu usage -> 1.5, memory usage -> 5952843776 bytes.
+[2022-01-24 22:07:27.319708] From client ('127.0.0.1', 58651): cpu usage -> 3.0, memory usage -> 5952679936 bytes.
+[2022-01-24 22:07:27.508290] Client removed: <socket.socket fd=1348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58651)>
+[2022-01-24 22:07:28.750130] SESSION ENDED
+[2022-01-24 22:10:34.206978] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:10:44.390980] new client : <socket.socket fd=1264, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58676)>
+[2022-01-24 22:10:44.390980] From client ('127.0.0.1', 58676): cpu usage -> 1.6, memory usage -> 5871030272 bytes.
+[2022-01-24 22:10:44.902045] From client ('127.0.0.1', 58676): cpu usage -> 3.0, memory usage -> 5866975232 bytes.
+[2022-01-24 22:10:45.409810] From client ('127.0.0.1', 58676): cpu usage -> 2.3, memory usage -> 5866217472 bytes.
+[2022-01-24 22:10:45.918022] From client ('127.0.0.1', 58676): cpu usage -> 14.6, memory usage -> 5865553920 bytes.
+[2022-01-24 22:10:46.430381] From client ('127.0.0.1', 58676): cpu usage -> 17.3, memory usage -> 5873078272 bytes.
+[2022-01-24 22:10:46.943067] From client ('127.0.0.1', 58676): cpu usage -> 13.3, memory usage -> 5872726016 bytes.
+[2022-01-24 22:10:47.451192] From client ('127.0.0.1', 58676): cpu usage -> 8.6, memory usage -> 5872529408 bytes.
+[2022-01-24 22:10:47.964691] From client ('127.0.0.1', 58676): cpu usage -> 10.6, memory usage -> 5871460352 bytes.
+[2022-01-24 22:10:48.477645] From client ('127.0.0.1', 58676): cpu usage -> 23.5, memory usage -> 5885370368 bytes.
+[2022-01-24 22:10:48.986585] From client ('127.0.0.1', 58676): cpu usage -> 10.9, memory usage -> 5881249792 bytes.
+[2022-01-24 22:10:49.498777] From client ('127.0.0.1', 58676): cpu usage -> 10.6, memory usage -> 5880459264 bytes.
+[2022-01-24 22:10:50.006960] From client ('127.0.0.1', 58676): cpu usage -> 3.0, memory usage -> 5876416512 bytes.
+[2022-01-24 22:10:50.514284] From client ('127.0.0.1', 58676): cpu usage -> 2.3, memory usage -> 5876310016 bytes.
+[2022-01-24 22:10:51.021864] From client ('127.0.0.1', 58676): cpu usage -> 2.3, memory usage -> 5876019200 bytes.
+[2022-01-24 22:10:51.527944] From client ('127.0.0.1', 58676): cpu usage -> 0.8, memory usage -> 5875511296 bytes.
+[2022-01-24 22:10:52.034509] From client ('127.0.0.1', 58676): cpu usage -> 0.8, memory usage -> 5875294208 bytes.
+[2022-01-24 22:10:52.543400] From client ('127.0.0.1', 58676): cpu usage -> 3.9, memory usage -> 5875134464 bytes.
+[2022-01-24 22:10:53.052373] From client ('127.0.0.1', 58676): cpu usage -> 5.3, memory usage -> 5885583360 bytes.
+[2022-01-24 22:10:53.563960] From client ('127.0.0.1', 58676): cpu usage -> 10.2, memory usage -> 5887692800 bytes.
+[2022-01-24 22:10:54.084331] From client ('127.0.0.1', 58676): cpu usage -> 2.9, memory usage -> 5887557632 bytes.
+[2022-01-24 22:10:54.592952] From client ('127.0.0.1', 58676): cpu usage -> 3.1, memory usage -> 5887332352 bytes.
+[2022-01-24 22:10:55.100460] From client ('127.0.0.1', 58676): cpu usage -> 5.3, memory usage -> 5884985344 bytes.
+[2022-01-24 22:10:55.608533] From client ('127.0.0.1', 58676): cpu usage -> 1.6, memory usage -> 5885042688 bytes.
+[2022-01-24 22:10:56.117737] From client ('127.0.0.1', 58676): cpu usage -> 3.0, memory usage -> 5885349888 bytes.
+[2022-01-24 22:10:56.624848] From client ('127.0.0.1', 58676): cpu usage -> 4.7, memory usage -> 5891129344 bytes.
+[2022-01-24 22:10:57.130429] From client ('127.0.0.1', 58676): cpu usage -> 0.0, memory usage -> 5891190784 bytes.
+[2022-01-24 22:10:57.636939] From client ('127.0.0.1', 58676): cpu usage -> 1.6, memory usage -> 5891387392 bytes.
+[2022-01-24 22:10:57.694914] new client : <socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58678)>
+[2022-01-24 22:10:57.694914] From client ('127.0.0.1', 58678): cpu usage -> 2.9, memory usage -> 5891457024 bytes.
+[2022-01-24 22:10:58.144386] From client ('127.0.0.1', 58676): cpu usage -> 1.5, memory usage -> 5891751936 bytes.
+[2022-01-24 22:10:58.206524] From client ('127.0.0.1', 58678): cpu usage -> 0.8, memory usage -> 5894721536 bytes.
+[2022-01-24 22:10:58.657819] From client ('127.0.0.1', 58676): cpu usage -> 12.3, memory usage -> 5894078464 bytes.
+[2022-01-24 22:10:58.717820] From client ('127.0.0.1', 58678): cpu usage -> 13.1, memory usage -> 5894074368 bytes.
+[2022-01-24 22:10:59.171621] From client ('127.0.0.1', 58676): cpu usage -> 20.9, memory usage -> 5893992448 bytes.
+[2022-01-24 22:10:59.232067] From client ('127.0.0.1', 58678): cpu usage -> 22.4, memory usage -> 5893992448 bytes.
+[2022-01-24 22:10:59.696527] From client ('127.0.0.1', 58676): cpu usage -> 21.2, memory usage -> 5891641344 bytes.
+[2022-01-24 22:10:59.741654] From client ('127.0.0.1', 58678): cpu usage -> 19.5, memory usage -> 5891899392 bytes.
+[2022-01-24 22:11:00.213585] From client ('127.0.0.1', 58676): cpu usage -> 15.2, memory usage -> 5891973120 bytes.
+[2022-01-24 22:11:00.243828] From client ('127.0.0.1', 58678): cpu usage -> 17.2, memory usage -> 5891973120 bytes.
+[2022-01-24 22:11:00.736422] From client ('127.0.0.1', 58676): cpu usage -> 11.1, memory usage -> 5891538944 bytes.
+[2022-01-24 22:11:00.751847] From client ('127.0.0.1', 58678): cpu usage -> 9.3, memory usage -> 5891538944 bytes.
+[2022-01-24 22:11:01.241910] From client ('127.0.0.1', 58676): cpu usage -> 2.3, memory usage -> 5891420160 bytes.
+[2022-01-24 22:11:01.256889] From client ('127.0.0.1', 58678): cpu usage -> 3.0, memory usage -> 5890252800 bytes.
+[2022-01-24 22:11:01.750917] From client ('127.0.0.1', 58676): cpu usage -> 3.1, memory usage -> 5889912832 bytes.
+[2022-01-24 22:11:01.765585] From client ('127.0.0.1', 58678): cpu usage -> 3.9, memory usage -> 5889908736 bytes.
+[2022-01-24 22:11:02.220063] Client removed: <socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58678)>
+[2022-01-24 22:11:02.260352] From client ('127.0.0.1', 58676): cpu usage -> 8.3, memory usage -> 5868679168 bytes.
+[2022-01-24 22:11:02.776821] From client ('127.0.0.1', 58676): cpu usage -> 14.3, memory usage -> 5868785664 bytes.
+[2022-01-24 22:11:03.288720] From client ('127.0.0.1', 58676): cpu usage -> 3.8, memory usage -> 5884887040 bytes.
+[2022-01-24 22:11:03.796884] From client ('127.0.0.1', 58676): cpu usage -> 5.5, memory usage -> 5884186624 bytes.
+[2022-01-24 22:11:04.306744] From client ('127.0.0.1', 58676): cpu usage -> 5.3, memory usage -> 5883998208 bytes.
+[2022-01-24 22:11:04.816879] From client ('127.0.0.1', 58676): cpu usage -> 7.5, memory usage -> 5879173120 bytes.
+[2022-01-24 22:11:05.328861] From client ('127.0.0.1', 58676): cpu usage -> 9.4, memory usage -> 5879103488 bytes.
+[2022-01-24 22:11:05.840860] From client ('127.0.0.1', 58676): cpu usage -> 6.8, memory usage -> 5868216320 bytes.
+[2022-01-24 22:11:06.362725] From client ('127.0.0.1', 58676): cpu usage -> 5.1, memory usage -> 5867253760 bytes.
+[2022-01-24 22:11:06.872925] From client ('127.0.0.1', 58676): cpu usage -> 5.4, memory usage -> 5875138560 bytes.
+[2022-01-24 22:11:07.383922] From client ('127.0.0.1', 58676): cpu usage -> 7.6, memory usage -> 5875036160 bytes.
+[2022-01-24 22:11:07.892390] From client ('127.0.0.1', 58676): cpu usage -> 7.0, memory usage -> 5852889088 bytes.
+[2022-01-24 22:11:08.400876] From client ('127.0.0.1', 58676): cpu usage -> 6.8, memory usage -> 5852594176 bytes.
+[2022-01-24 22:11:08.907110] From client ('127.0.0.1', 58676): cpu usage -> 0.8, memory usage -> 5844361216 bytes.
+[2022-01-24 22:11:09.427771] From client ('127.0.0.1', 58676): cpu usage -> 3.0, memory usage -> 5843431424 bytes.
+[2022-01-24 22:11:09.934144] From client ('127.0.0.1', 58676): cpu usage -> 5.4, memory usage -> 5839392768 bytes.
+[2022-01-24 22:11:10.443135] From client ('127.0.0.1', 58676): cpu usage -> 2.3, memory usage -> 5853011968 bytes.
+[2022-01-24 22:11:10.962038] From client ('127.0.0.1', 58676): cpu usage -> 1.5, memory usage -> 5852942336 bytes.
+[2022-01-24 22:11:11.477549] From client ('127.0.0.1', 58676): cpu usage -> 9.8, memory usage -> 5852790784 bytes.
+[2022-01-24 22:11:11.992797] From client ('127.0.0.1', 58676): cpu usage -> 6.0, memory usage -> 5852647424 bytes.
+[2022-01-24 22:11:12.504754] From client ('127.0.0.1', 58676): cpu usage -> 15.9, memory usage -> 5852569600 bytes.
+[2022-01-24 22:11:12.754106] Client removed: <socket.socket fd=1264, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58676)>
+[2022-01-24 22:11:14.733902] STATISTICS:
+[2022-01-24 22:11:14.735906] Packets received: 65
+[2022-01-24 22:11:14.742295] Packets sent    : 65
+[2022-01-24 22:11:14.745516] Bytes received  : 5349
+[2022-01-24 22:11:14.748069] Bytes sent      : 3575
+[2022-01-24 22:11:14.750024] SESSION ENDED
+[2022-01-24 22:12:36.230799] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:13:32.757603] STATISTICS:
+[2022-01-24 22:13:32.758567] Packets received: 0
+[2022-01-24 22:13:32.759569] Packets sent    : 0
+[2022-01-24 22:13:32.759569] Bytes received  : 0
+[2022-01-24 22:13:32.759569] Bytes sent      : 0
+[2022-01-24 22:13:32.760602] SESSION ENDED
+[2022-01-24 22:13:54.606799] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:13:55.075927] new client : <socket.socket fd=1280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 58711)>
+[2022-01-24 22:13:55.076931] From client ('127.0.0.1', 58711): cpu usage -> 3.2, memory usage -> 5892993024 bytes.
+[2022-01-24 22:13:55.583842] From client ('127.0.0.1', 58711): cpu usage -> 2.3, memory usage -> 5892956160 bytes.
+[2022-01-24 22:13:56.091738] From client ('127.0.0.1', 58711): cpu usage -> 5.4, memory usage -> 5892947968 bytes.
+[2022-01-24 22:13:56.599191] From client ('127.0.0.1', 58711): cpu usage -> 2.3, memory usage -> 5897310208 bytes.
+[2022-01-24 22:13:57.107779] From client ('127.0.0.1', 58711): cpu usage -> 1.6, memory usage -> 5897101312 bytes.
+[2022-01-24 22:13:57.616264] From client ('127.0.0.1', 58711): cpu usage -> 2.3, memory usage -> 5897060352 bytes.
+[2022-01-24 22:13:58.121716] From client ('127.0.0.1', 58711): cpu usage -> 3.9, memory usage -> 5892509696 bytes.
+[2022-01-24 22:13:58.631318] From client ('127.0.0.1', 58711): cpu usage -> 4.5, memory usage -> 5892448256 bytes.
+[2022-01-24 22:13:59.146264] From client ('127.0.0.1', 58711): cpu usage -> 7.5, memory usage -> 5892272128 bytes.
+[2022-01-24 22:13:59.660779] From client ('127.0.0.1', 58711): cpu usage -> 11.4, memory usage -> 5891989504 bytes.
+[2022-01-24 22:14:00.174073] From client ('127.0.0.1', 58711): cpu usage -> 10.9, memory usage -> 5892214784 bytes.
+[2022-01-24 22:14:00.198207] STATISTICS:
+[2022-01-24 22:14:00.208173] Packets received: 11
+[2022-01-24 22:14:00.212378] Packets sent    : 11
+[2022-01-24 22:14:00.214373] Bytes received  : 904
+[2022-01-24 22:14:00.215374] Bytes sent      : 605
+[2022-01-24 22:14:00.217404] SESSION ENDED
+[2022-01-24 22:14:10.631360] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:16:05.271106] new client : <socket.socket fd=728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 59708)>
+[2022-01-24 22:16:28.701701] STATISTICS:
+[2022-01-24 22:18:21.535531] new client : <socket.socket fd=812, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 59716)>
+[2022-01-24 22:18:21.539550] Packets received: 0
+[2022-01-24 22:18:21.544503] Client removed: <socket.socket fd=728, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 59708)>
+[2022-01-24 22:18:21.545501] Packets sent    : 0
+[2022-01-24 22:18:21.548702] Bytes received  : 0
+[2022-01-24 22:18:21.548702] Bytes sent      : 0
+[2022-01-24 22:18:21.549485] SESSION ENDED
+[2022-01-24 22:18:25.838984] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:18:25.973038] new client : <socket.socket fd=1264, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 52870)>
+[2022-01-24 22:18:25.974041] From client ('127.0.0.1', 52870): cpu usage -> 3.8, memory usage -> 5881790464 bytes.
+[2022-01-24 22:18:26.479066] From client ('127.0.0.1', 52870): cpu usage -> 2.3, memory usage -> 5881749504 bytes.
+[2022-01-24 22:18:26.991391] From client ('127.0.0.1', 52870): cpu usage -> 1.5, memory usage -> 5881425920 bytes.
+[2022-01-24 22:18:27.506541] From client ('127.0.0.1', 52870): cpu usage -> 6.0, memory usage -> 5881151488 bytes.
+[2022-01-24 22:18:28.017851] From client ('127.0.0.1', 52870): cpu usage -> 7.6, memory usage -> 5879828480 bytes.
+[2022-01-24 22:18:28.525140] From client ('127.0.0.1', 52870): cpu usage -> 0.8, memory usage -> 5888344064 bytes.
+[2022-01-24 22:18:29.036456] From client ('127.0.0.1', 52870): cpu usage -> 12.7, memory usage -> 5888180224 bytes.
+[2022-01-24 22:18:29.545351] From client ('127.0.0.1', 52870): cpu usage -> 3.1, memory usage -> 5883498496 bytes.
+[2022-01-24 22:18:30.052677] From client ('127.0.0.1', 52870): cpu usage -> 0.0, memory usage -> 5883179008 bytes.
+[2022-01-24 22:18:30.572908] From client ('127.0.0.1', 52870): cpu usage -> 3.0, memory usage -> 5882314752 bytes.
+[2022-01-24 22:18:31.092765] From client ('127.0.0.1', 52870): cpu usage -> 3.0, memory usage -> 5882286080 bytes.
+[2022-01-24 22:18:31.603313] From client ('127.0.0.1', 52870): cpu usage -> 4.5, memory usage -> 5881880576 bytes.
+[2022-01-24 22:18:32.110630] From client ('127.0.0.1', 52870): cpu usage -> 9.3, memory usage -> 5881765888 bytes.
+[2022-01-24 22:18:32.622931] From client ('127.0.0.1', 52870): cpu usage -> 16.3, memory usage -> 5888221184 bytes.
+[2022-01-24 22:18:33.133077] From client ('127.0.0.1', 52870): cpu usage -> 7.6, memory usage -> 5886726144 bytes.
+[2022-01-24 22:18:33.645437] From client ('127.0.0.1', 52870): cpu usage -> 3.8, memory usage -> 5886296064 bytes.
+[2022-01-24 22:18:34.151299] From client ('127.0.0.1', 52870): cpu usage -> 2.3, memory usage -> 5886009344 bytes.
+[2022-01-24 22:18:34.660377] From client ('127.0.0.1', 52870): cpu usage -> 6.1, memory usage -> 5881761792 bytes.
+[2022-01-24 22:18:35.166147] From client ('127.0.0.1', 52870): cpu usage -> 5.5, memory usage -> 5881335808 bytes.
+[2022-01-24 22:18:35.670546] From client ('127.0.0.1', 52870): cpu usage -> 3.1, memory usage -> 5881036800 bytes.
+[2022-01-24 22:18:36.178441] From client ('127.0.0.1', 52870): cpu usage -> 0.8, memory usage -> 5880864768 bytes.
+[2022-01-24 22:18:36.686251] From client ('127.0.0.1', 52870): cpu usage -> 0.8, memory usage -> 5880807424 bytes.
+[2022-01-24 22:18:37.192925] From client ('127.0.0.1', 52870): cpu usage -> 1.5, memory usage -> 5889249280 bytes.
+[2022-01-24 22:18:37.712944] From client ('127.0.0.1', 52870): cpu usage -> 0.8, memory usage -> 5889069056 bytes.
+[2022-01-24 22:18:38.197619] STATISTICS:
+[2022-01-24 22:18:38.198634] Packets received: 24
+[2022-01-24 22:18:38.200525] Packets sent    : 24
+[2022-01-24 22:18:38.202526] Bytes received  : 1970
+[2022-01-24 22:18:38.203563] Bytes sent      : 1320
+[2022-01-24 22:18:38.205535] SESSION ENDED
+[2022-01-24 22:19:12.806630] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:20:05.494868] new client : <socket.socket fd=1268, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 52876)>
+[2022-01-24 22:20:05.494868] From client ('127.0.0.1', 52876): cpu usage -> 2.6, memory usage -> 5886267392 bytes.
+[2022-01-24 22:20:06.000869] From client ('127.0.0.1', 52876): cpu usage -> 3.1, memory usage -> 5885440000 bytes.
+[2022-01-24 22:20:06.508722] From client ('127.0.0.1', 52876): cpu usage -> 5.3, memory usage -> 5884817408 bytes.
+[2022-01-24 22:20:07.021980] From client ('127.0.0.1', 52876): cpu usage -> 3.0, memory usage -> 5889822720 bytes.
+[2022-01-24 22:20:07.531587] From client ('127.0.0.1', 52876): cpu usage -> 9.4, memory usage -> 5889757184 bytes.
+[2022-01-24 22:20:08.041172] From client ('127.0.0.1', 52876): cpu usage -> 6.1, memory usage -> 5889437696 bytes.
+[2022-01-24 22:20:08.552583] From client ('127.0.0.1', 52876): cpu usage -> 3.7, memory usage -> 5889183744 bytes.
+[2022-01-24 22:20:09.065542] From client ('127.0.0.1', 52876): cpu usage -> 5.3, memory usage -> 5879042048 bytes.
+[2022-01-24 22:20:09.572803] From client ('127.0.0.1', 52876): cpu usage -> 7.0, memory usage -> 5877223424 bytes.
+[2022-01-24 22:20:09.949710] STATISTICS:
+[2022-01-24 22:20:09.949710] Packets received: 9
+[2022-01-24 22:20:09.949710] Packets sent    : 9
+[2022-01-24 22:20:09.950709] Bytes received  : 738
+[2022-01-24 22:20:09.950709] Bytes sent      : 495
+[2022-01-24 22:20:09.950709] SESSION ENDED
+[2022-01-24 22:24:09.758204] STARTING NEW SESSION, WAITING FOR CLIENTS
+[2022-01-24 22:24:24.078544] new client : <socket.socket fd=1264, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5050), raddr=('127.0.0.1', 52940)>
+[2022-01-24 22:24:24.078544] From client ('127.0.0.1', 52940): cpu usage -> 1.6, memory usage -> 5933359104 bytes.
+[2022-01-24 22:24:25.087394] From client ('127.0.0.1', 52940): cpu usage -> 1.5, memory usage -> 5933162496 bytes.
+[2022-01-24 22:24:26.098029] From client ('127.0.0.1', 52940): cpu usage -> 4.2, memory usage -> 5933006848 bytes.
+[2022-01-24 22:24:27.100252] From client ('127.0.0.1', 52940): cpu usage -> 4.7, memory usage -> 5937471488 bytes.
+[2022-01-24 22:24:28.111635] From client ('127.0.0.1', 52940): cpu usage -> 1.6, memory usage -> 5932687360 bytes.
+[2022-01-24 22:24:29.123404] From client ('127.0.0.1', 52940): cpu usage -> 3.5, memory usage -> 5932318720 bytes.
+[2022-01-24 22:24:30.124707] From client ('127.0.0.1', 52940): cpu usage -> 5.4, memory usage -> 5932142592 bytes.
+[2022-01-24 22:24:31.141009] From client ('127.0.0.1', 52940): cpu usage -> 0.4, memory usage -> 5932056576 bytes.
+[2022-01-24 22:24:31.989395] STATISTICS:
+[2022-01-24 22:24:31.989395] Packets received: 8
+[2022-01-24 22:24:31.990403] Packets sent    : 8
+[2022-01-24 22:24:31.991396] Bytes received  : 656
+[2022-01-24 22:24:31.991687] Bytes sent      : 440
+[2022-01-24 22:24:31.991962] SESSION ENDED

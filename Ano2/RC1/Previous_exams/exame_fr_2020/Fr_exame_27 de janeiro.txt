@@ -1,0 +1,77 @@
+Primeira parte do exame:
+
+
+1->qual a tabela de encaminhamento do switch 16 após a comunicação entre o terminal x e y, e entre o terminal y e z?
+
+--	mac_address	 | interface do switch
+---------------------------------------------
+	mac_address de x |	 1
+	mac_address de y |       2
+	mac_address de z |       1
+
+2-será possível obter uma solução de configuração que permita a comunicação entre os terminais x e y por 2 caminhos distintos?
+--
+Sim, através do protocolo STP (Spanning tree protocol), podendo oferecer caminho alternativos entre 2 terminais.
+
+
+3- Não falámos
+
+4-Não falámos
+---
+5- Considerando agora que existe uma pool de endereços públicos 223.174.8.0/22, proponha uma solução de partição da pool para permitir endereçar terminais nas VLANs 1, 2, 3, 4 e LAN X.
+-->223.174.8.0/22, temos de uma máscara de 22 bits, portanto, temos 2^10 endereços livres. Visto que não há imposições na distribuição de endereços, os mesmos serão distribuídos de forma igual para as Vlans 1, 2, 3, 4 e Lan X. 
+1024 / 2 = 512 endereços para Vlans 1, 2, 3 e E Lan X
+
+Uma partição poderia ser, 223.174.8.0/23 e 223.174.10.0/23 ( disponibilizando, 512 endereços para cade rede)
+
+6-- Não démos
+
+7--Numa rede sem fios que mecanismos existem para tentar diminuir as colisões de pacotes se a rede estiver muito congestionada?
+
+-- O envio de Rts e CTs, request to send E Clear to send respetivamente. As estações nesta rede sem fios, podem incialmente enviar um RTs para a estação com quem querem comunicar e aguardar pela resposta (CTS), para que possa transmitir dados.(MACA)
+Outra solução, será o uso de ACKs(acknowledgements). Sempre que 2 estações enviam dados, estas respondem/recebem acks e agem de acordo com os mesmos. Exemplo: uma estação não irá transmitir dados até receber o ack, de forma a evitar colisões.
+
+
+8--
+Numa rede IPv6 é possível um terminal comunicar na sua rede sem ajuda exterior?
+
+
+-->Sim. O ipv4 para comunicar dentro de uma rede com outro terminal precisa de ter um endereço ip, adquirido através de dhcp ou manualmente. E para comunicar num layer 3 o host precisa de saber o endereço ip do outro terminal.
+Já o ipv6, não tem mecanismos de broadcast e consegue auto-configurar o seu próprio ip. O próprio router não precisa configurações e caso não haja router, ele próprio cria um link-local address, o que é suficiente para comunicar na mesma rede.
+
+
+
+
+
+-------------------2ª Parte--------------------------------------
+
+
+1-- Não falámos sobre isto.
+
+2--não falámos de encaminhamento dinâmico
+
+3--Não falámos disto
+
+4--Não falámos sobre protocolo RIPng
+
+5--Inicialmente, teriamos de configurar o servidor de dns como mestre e com autoridade sobre este dominio (redes2020.com), de seguida criaríamos uma zona para o dominio adicionando um ficheiro de configuração, named.conf.local, este ficheiro possuiria também um registos dns do tipo A (para associar ás extensões e possíveis subdominios), MX(caso de emails, mas não démos), do tipo NS para o respetivo dominio e do tipo AAAA pois mteremos a presença de ipv6.
+Posteriormente criaríamos um ficheiro db.redes2020.pt, com as definições e configurações dns e também, onde associariamos o nosso dominio e subdominos a ips
+Também adicionariamos as respetivas extensões (www, ,etc).
+
+
+
+6--
+    a)-7 pacotes. Como temos uma congestion window de 7500, podemos mandar, logo após o inicio da ligação, 7 pacotes de 1000 bytes.
+
+     b)Não vai enviar mais. Apesar da rede aguentar, o buffer de receção de b já foi excedido.
+  
+     c) 50000 - seqNumberIncial - syn - fyn = 50000 - 10000 -1 - 1 = 39998 bytes de dados
+
+
+7---Sim, mais 2. Visto que temos 3 endereços diferentes, podemos abrir 3 aplicações, cada uma delas com um dos endereços (que os diferençia), independentemente de estarem no mesmo porto.
+
+
+8--O servidor envia todos os objetos associados à raiz.
+
+9--Para podermos a avaliar o poder do sinal de acordo com a distância, havendo uma relação inversa entre ambas. O poder de sinal reduz com o quadrado da distância
+
