@@ -1,0 +1,58 @@
+Studio:
+Name: the name of the studio
+Location: the physical location of the studio
+Founder(s): the founder(s) of the studio
+Established year: the year the studio was established
+
+
+Content:
+Name: name of the content
+Inittial Release date: release date for the content type
+Director: the director(s) of the movie(entidade)
+Producer: the producer(s) of the movie(entidade)
+Writer: the writer(s) of the movie (entidade)
+Cast: the actors and their roles in the movie (entidade)
+Reviews: reviews or ratings given to the movie (entidade)
+Awards: awards received by the movie (entidade)
+
+
+Movie:
+Title: the title of the movie
+Synopsis: a brief summary or description of the movie
+Running time: the duration of the movie (in minutes)
+
+
+TV Show:
+Title: the title of the tv series
+Synopsis: a brief summary or description of the movie
+Running time: the duration of the movie (in minutes)
+
+
+
+Season:
+Season number: the number or name of the season
+Release date: the date when the season was released
+Number of episodes: the total number of episodes in the season
+Synopsis: a brief summary or description of the season
+
+Episode:
+Episode number: the number or name of the episode
+Title: the title of the episode
+Synopsis: a brief summary or description of the episode
+
+
+Person:
+Name: the name of the person
+Birthdate: the birthdate of the person
+Nationality: the nationality or country of origin of the person
+num_cc : numero de cartao de cidadao
+
+
+Character:
+Name: the name of the character
+Description: a description or profile of the character
+Role: the role of the character in the content
+
+Utilizador:
+Nome: Nome do utilizador
+id_user : id

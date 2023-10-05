@@ -1,0 +1,292 @@
+Certainly! Here's an expanded list with more examples of SQL statements for indexes, stored procedures, UDFs, triggers, queries, and views based on the provided database schema:
+
+Indexes:
+
+Create an index on the content_id column in the avalia table:
+
+sql
+Copy code
+CREATE INDEX idx_avalia_content_id ON avalia (content_id);
+Create an index on the nome column in the utilizador table:
+
+sql
+Copy code
+CREATE INDEX idx_utilizador_nome ON utilizador (nome);
+Stored Procedures:
+
+Create a stored procedure to retrieve movie details based on the content_id:
+
+sql
+Copy code
+CREATE PROCEDURE GetMovieDetails
+    @ContentId INT
+AS
+BEGIN
+    SELECT *
+    FROM conteudo
+    WHERE content_id = @ContentId;
+END;
+Create a stored procedure to insert a new record into the avalia table:
+
+sql
+Copy code
+CREATE PROCEDURE InsertReview
+    @UserId INT,
+    @Review VARCHAR(100),
+    @ContentId INT
+AS
+BEGIN
+    INSERT INTO avalia (user_id, review, content_id)
+    VALUES (@UserId, @Review, @ContentId);
+END;
+User-Defined Functions (UDFs):
+
+Create a UDF to calculate the age of a person based on their date of birth (data_nasc):
+
+sql
+Copy code
+CREATE FUNCTION CalculateAge
+(
+    @DateOfBirth DATE
+)
+RETURNS INT
+AS
+BEGIN
+    RETURN DATEDIFF(YEAR, @DateOfBirth, GETDATE());
+END;
+Create a UDF to concatenate the first name and last name of a person:
+
+sql
+Copy code
+CREATE FUNCTION ConcatenateFullName
+(
+    @FirstName VARCHAR(30),
+    @LastName VARCHAR(30)
+)
+RETURNS VARCHAR(61)
+AS
+BEGIN
+    RETURN @FirstName + ' ' + @LastName;
+END;
+Triggers:
+
+Create a trigger on the avalia table to update the average rating of a movie in the conteudo table:
+sql
+Copy code
+CREATE TRIGGER UpdateAverageRating
+ON avalia
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    UPDATE conteudo
+    SET average_rating = (
+        SELECT AVG(rating)
+        FROM avalia
+        WHERE content_id = inserted.content_id
+    )
+    WHERE content_id IN (
+        SELECT content_id
+        FROM inserted
+    );
+END;
+Queries:
+
+Retrieve a list of movies along with their associated genres and awards:
+
+sql
+Copy code
+SELECT c.content_id, c.nome AS movie_name, g.nome_genero AS genre, p.nome_premio AS award
+FROM conteudo c
+LEFT JOIN genero g ON g.content_id = c.content_id
+LEFT JOIN premio p ON p.content_id = c.content_id;
+Get the top-rated movies based on their average rating from the avalia table:
+
+sql
+Copy code
+SELECT c.content_id, c.nome AS movie_name, a.average_rating
+FROM conteudo c
+INNER JOIN (
+    SELECT content_id, AVG(rating) AS average_rating
+    FROM avalia
+    GROUP BY content_id
+) a ON a.content_id = c.content_id
+ORDER BY a.average_rating DESC;
+Views:
+
+Create a view that combines information from multiple tables to provide a comprehensive movie overview:
+
+sql
+Copy code
+CREATE VIEW MovieOverview AS
+SELECT c.content_id, c.nome AS movie_name, e.nome AS studio_name, a.average_rating
+FROM conteudo c
+LEFT JOIN estudio e ON e.estudio_id = c.estudio_id
+LEFT JOIN (
+    SELECT content_id, AVG(rating) AS average_rating
+    FROM avalia
+    GROUP BY content_id
+) a ON a.content_id = c.content_id;
+Create a view that displays the total number of reviews and the average rating for each movie:
+
+sql
+Copy code
+CREATE VIEW MovieReviews AS
+SELECT c.content_id, c.nome AS movie_name, COUNT(a.content_id) AS review_count, AVG(a.rating) AS average_rating
+FROM conteudo c
+LEFT JOIN avalia a ON a.content_id = c.content_id
+GROUP BY c.content_id, c.nome;
+These examples should give you a starting point for creating indexes, stored procedures, UDFs, triggers, queries, and views based on your database schema. Remember to customize them according to your specific requirements and adjust the column names, parameters, and logic as needed.
+
+
+
+
+
+User
+more
+ChatGPT
+Certainly! Here are more examples of SQL statements for indexes, stored procedures, UDFs, triggers, queries, and views based on the provided database schema:
+
+Indexes:
+
+Create an index on the nome_genero column in the lista_generos table:
+
+sql
+Copy code
+CREATE INDEX idx_lista_generos_nome_genero ON lista_generos (nome_genero);
+Create an index on the num_cc column in the pessoa table:
+
+sql
+Copy code
+CREATE INDEX idx_pessoa_num_cc ON pessoa (num_cc);
+Stored Procedures:
+
+Create a stored procedure to retrieve a list of movies released in a specific year:
+
+sql
+Copy code
+CREATE PROCEDURE GetMoviesByYear
+    @Year INT
+AS
+BEGIN
+    SELECT c.content_id, c.nome AS movie_name
+    FROM conteudo c
+    INNER JOIN Filme f ON f.content_id = c.content_id
+    WHERE YEAR(f.data_estreia) = @Year;
+END;
+Create a stored procedure to insert a new person into the pessoa table:
+
+sql
+Copy code
+CREATE PROCEDURE InsertPerson
+    @NumCc INT,
+    @Nome VARCHAR(30),
+    @DataNasc DATE
+AS
+BEGIN
+    INSERT INTO pessoa (num_cc, nome, data_nasc)
+    VALUES (@NumCc, @Nome, @DataNasc);
+END;
+User-Defined Functions (UDFs):
+
+Create a UDF to calculate the total number of movies directed by a specific director:
+
+sql
+Copy code
+CREATE FUNCTION CountMoviesDirectedByDirector
+(
+    @NumCc INT
+)
+RETURNS INT
+AS
+BEGIN
+    RETURN (
+        SELECT COUNT(*)
+        FROM diretor
+        WHERE num_cc = @NumCc
+    );
+END;
+Create a UDF to check if a movie is classified as a "Thriller" based on its genre:
+
+sql
+Copy code
+CREATE FUNCTION IsMovieThriller
+(
+    @ContentId INT
+)
+RETURNS BIT
+AS
+BEGIN
+    RETURN (
+        SELECT CASE WHEN EXISTS (
+            SELECT 1
+            FROM genero
+            WHERE nome_genero_id = 1 -- Assuming 1 represents "Thriller" genre
+            AND content_id = @ContentId
+        ) THEN 1 ELSE 0 END
+    );
+END;
+Triggers:
+
+Create a trigger on the pessoa table to update the num_filmes column in the diretor table whenever a director's record is updated:
+sql
+Copy code
+CREATE TRIGGER UpdateNumFilmesOnDiretor
+ON pessoa
+AFTER UPDATE
+AS
+BEGIN
+    UPDATE diretor
+    SET num_filmes = (
+        SELECT COUNT(*)
+        FROM conteudo c
+        INNER JOIN diretor d ON d.num_cc = c.num_cc
+        WHERE d.num_cc = inserted.num_cc
+    )
+    WHERE num_cc IN (
+        SELECT num_cc
+        FROM inserted
+    );
+END;
+Queries:
+
+Retrieve a list of movies with their respective directors:
+
+sql
+Copy code
+SELECT c.content_id, c.nome AS movie_name, p.nome AS director_name
+FROM conteudo c
+INNER JOIN diretor d ON d.num_cc = c.num_cc
+INNER JOIN pessoa p ON p.num_cc = d.num_cc;
+Get the top-rated movies based on the average rating and runtime:
+
+sql
+Copy code
+SELECT c.content_id, c.nome AS movie_name, f.runtime, a.average_rating
+FROM conteudo c
+INNER JOIN Filme f ON f.content_id = c.content_id
+INNER JOIN (
+    SELECT content_id, AVG(rating) AS average_rating
+    FROM avalia
+    GROUP BY content_id
+) a ON a.content_id = c.content_id
+ORDER BY a.average_rating DESC, f.runtime DESC;
+Views:
+
+Create a view that displays the list of movies along with the names of their directors and genres:
+
+sql
+Copy code
+CREATE VIEW MovieDetails AS
+SELECT c.content_id, c.nome AS movie_name, p.nome AS director_name, g.nome_genero AS genre
+FROM conteudo c
+LEFT JOIN diretor d ON d.num_cc = c.num_cc
+LEFT JOIN pessoa p ON p.num_cc = d.num_cc
+LEFT JOIN genero g ON g.content_id = c.content_id;
+Create a view that shows the number of movies released per year:
+
+sql
+Copy code
+CREATE VIEW MoviesPerYear AS
+SELECT YEAR(f.data_estreia) AS release_year, COUNT(*) AS movie_count
+FROM Filme f
+GROUP BY YEAR(f.data_estreia);

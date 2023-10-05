@@ -1,1 +1,0 @@
-365*year + year/4 - year/100 + year/400 + date + (153*month+8)/5

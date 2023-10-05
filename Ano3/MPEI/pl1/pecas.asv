@@ -1,0 +1,5 @@
+m= 1e5;
+n = 10;
+experiencia = (randi([1, 50], n, m)) ;
+
+[B, ~, ib] = unique(experiencia, 'col');

@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 9.0.4 (Oracle Corporation)
-Main-Class: DatasPassadas
-

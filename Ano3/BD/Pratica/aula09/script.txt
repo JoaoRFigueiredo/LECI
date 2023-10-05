@@ -1,0 +1,22 @@
+DELIMITER //
+CREATE PROCEDURE get_department_managers_and_oldest_employee()
+BEGIN
+    SELECT 
+        emp.Ssn AS ssn,
+        emp.Fname AS first_name,
+        emp.Lname AS last_name,
+        dept.Dname AS dept_name,
+        dept.Mgr_start_date AS start_date,
+        DATEDIFF(CURDATE(), dept.Mgr_start_date) AS years_as_manager
+    FROM EMPLOYEE emp
+    JOIN DEPARTMENT dept ON emp.Ssn = dept.Mgr_ssn
+    WHERE dept.Mgr_start_date = (
+        SELECT MIN(Mgr_start_date) 
+        FROM DEPARTMENT
+    )
+    ORDER BY emp.Bdate ASC
+    LIMIT 1;
+END //
+DELIMITER ;
+
+CALL get_department_managers_and_oldest_employee();

@@ -1,0 +1,11 @@
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\bin\Debug\Contacts.exe
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\bin\Debug\Contacts.pdb
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.csproj.AssemblyReference.cache
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.Form1.resources
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.csproj.GenerateResource.cache
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.csproj.CoreCompileInputs.cache
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.exe
+C:\Users\user\BD\Pratica\aula07\Aula7_VS_Forms_Material\Contacts_CSharp\ContactsC#\Contacts\obj\x86\Debug\Contacts.pdb

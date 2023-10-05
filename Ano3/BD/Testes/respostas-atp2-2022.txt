@@ -1,0 +1,41 @@
+1- Verdade
+2- Verdade (bruh)
+3- Falso
+4- dunno
+5- Verdadeiro
+6- Verdadeiro
+7- Falso
+8- Verdadeiro
+9- Verdadeiro
+10- Verdadeiro
+11- Verdadeiro
+12- Falso
+13- Verdadeiro
+14- Verdadeira
+15- Verdadeira (i think)
+16- verdeira (sei lá lol)
+17-  talvez seja verdade
+18- Verdadeiro (é uma tabela non-clustered)
+19- 
+20- Falso (para ter várias instruções, teria que ser multi-statement)
+21- Falso (nunca usar sql dinamico)
+22- Falso (seria a tabela deleted)
+23-
+24- Verdade
+25- Verdadeira
+26- Verdadeiro (to quote the slides, "Índices que necessitam de carregar poucas páginas da relação, para
+encontrar o tuplo, reduzem significativamente o tempo de pesquisa")
+27- 
+28- Verdadeiro
+29- Falso (não pode ter dependencias de junção)
+30- Verdadeira
+31- Verdadeira
+32- Verdadeiro
+33- Falso (?)
+34- Verdadeiro
+35- Verdadeiro
+36- Verdade i think
+37- Falso
+38- Verdade i think
+39- Falso i think
+40- Falso (isso é na oracle)

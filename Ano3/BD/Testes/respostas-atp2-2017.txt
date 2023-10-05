@@ -1,0 +1,21 @@
+primeiras 20 perguntas
+1- Verdade (podemos ter vários non-clustered) (primary ou clustered --> apenas 1)
+2- Verdade
+3- Verdade
+4- Falso (só non-clustered é que podem)
+5- Verdadeiro
+6- Falso (tinha que ser uma multi-statement)
+7- Verdade
+8- Falso
+9- Verdadeiro
+10- Verdadeiro
+11- Falso
+12- Verdadeiro
+13- Falso
+14- Verdadeiro
+15- Falso (se as inserções são ordenadas, o fillFactor deve ser de 100%)
+16- Verdadeiro
+17- Falso (o deny sobrepoe-se ao grant sobreposto)
+18- Falsos
+19- Verdadeiro
+20- Falso (é um instead of)

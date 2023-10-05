@@ -1,0 +1,10 @@
+1. no diagram ER criámos uma nova tabela list_generos, pois não se pode ter varchar como primary key, então trocámos o nome para nome_genero_id como PK que vai associar a uma tabela com o ID e a seguir uma varchar com o nome associado ao ID
+
+2. no diagram ER criámos uma nova tabela list_premios, pois não se pode ter varchar como primary key, então trocámos o nome para premio_id como PK que vai associar a uma tabela com o ID e a seguir uma varchar com o premio associado ao ID
+
+
+3- criar tabela pessoa-conteudo e personagem-conteudo
+
+
+
+QUESTAO tiago: Tendo em conta que conteudo e genero/premio são relacções 1/N respetivamente, será que o conteudo sendo o lado mais forte(1) seria o único a passar uma chave para o outro? ou seja o conteudo ficaria: Estudio ID,Nome,contentID. E o premio e o genero ficariam Nome_genero_ID/Tipo_premio_ID e content_ID

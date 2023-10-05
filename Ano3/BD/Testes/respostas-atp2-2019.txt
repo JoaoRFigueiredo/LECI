@@ -1,0 +1,41 @@
+Primeiras 20 perguntas
+
+1- Verdadeira
+2- Verdadeira
+3- Falso
+4- Verdadeiro
+5- Verdadeiro
+6- Falso (é uma udf)
+7- Falso
+8- Falso
+9- Verdadeiro
+10- Falso
+11- Falso
+12- Falso
+13- Verdadeiro
+14- Falso (isso é na oracle)
+15- Verdadeiro 
+16- Falso (nunca utilizar sql dinamico)
+17- Verdadeiro
+18- Verdadeiro
+19- Falso
+20- Falso
+
+pergunta 2 ex 1(A)
+A-Verdadeiro
+B- Falsa (não conseguimos verificar o III na declaração das tabelas)
+C- Falso/verdadeiro (?)
+D- Verdadeiro
+E- Verdade
+F- Falso (uma transação é ideal assim que garantimos que ocorre tudo, se algo falahr, tudo falha)
+G- Falso (talvez faça, podemos fazer rollback se correr mal idk) Ou verdadeiro (assim, usa-se um instead of e as ações anteriores não chegam a acontecer)
+
+pergunta 2 ex1 (B)
+A- Verdade
+B- Verdade
+C- Falso (deve ser clustered por poder haver valores repetidos i think)
+D- Falso (a tabela já tem um clustered que é o ssn)
+E- Verdade (por ser uma chave estrangeira i think)
+F- Falso (por defeito é criado um "unique clustered index" e não um clustered index)
+G- Falso (se é clustered não pode ser filtrado)
+H- Verdade

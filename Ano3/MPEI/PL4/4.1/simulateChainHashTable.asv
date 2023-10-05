@@ -1,0 +1,28 @@
+function [hCodes, contagem, Collisions, Time] = simulateChainHashTable(words, tablesize, func, agr)
+
+%words --> cell array
+%tablesize --> tamanho da hash table
+%HashFunction --> função de dispersão a usar
+%agr --> 2º argumento da função de dispersão
+
+
+tic
+key = words{1}
+hash = mod(func(key, arg), tablesize);
+hCodes(1) = hash;
+contagem = zeros(tablesize, 1);
+
+for i =2:length(words)
+    key = words{i};
+    hash = mod(func(key, arg), tablesize);
+    if ~ismember(
+
+
+
+
+    
+    
+
+
+
+end
