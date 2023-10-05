@@ -1,0 +1,67 @@
+
+-- ## Ex. 1 --------------------------------
+2.6842105263157894
+
+-- ## Ex. 2 --------------------------------
+breadth 0 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Lisboa', 'Beja', 'Faro']
+1290 1730
+no(Faro,502)
+741 455.67203118032165 8
+Time: 0.043661680999999994
+
+-- ## Ex. 3 --------------------------------
+breadth 1 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Lisboa', 'Beja', 'Faro']
+1290 1730
+('Faro', 502, 739, 0.0, 8)
+('Guarda', 503, 741, 455.67203118032165, 8)
+Time: 0.035931120999999996
+
+-- ## Ex. 4 --------------------------------
+breadth 2 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Lisboa', 'Beja', 'Faro']
+1290 1730
+('Faro', 502, 739, 0.0, 8)
+('Guarda', 503, 741, 455.67203118032165, 8)
+Time: 0.03547020299999999
+
+-- ## Ex. 5 --------------------------------
+breadth 4 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro']
+18 1
+('Faro', 17, 706, 0.0, 8)
+[]
+Time: 0.000600332000000009
+
+-- ## Ex. 6 --------------------------------
+A* 0 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro']
+84 160
+no(Faro,193)
+Covilha 37 281 425.1176307799995 5
+Time: 0.004408318999999994
+
+A* 4 ['Braga', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro']
+17 2
+('Faro', 17, 706, 0.0, 8)
+14
+Time: 0.000557807999999993
+
+-- ## Ex. 7 --------------------------------
+IBA* 0 ['Braga', 'Guimaraes', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro'] 0.25
+53 101
+no(Faro,138)
+Guarda 23 263 455.67203118032165 5
+Time: 0.0026772450000000225
+
+IBA* 4 ['Braga', 'Guimaraes', 'Lamego', 'Viseu', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro'] 0.05
+13 3
+('Faro', 17, 776, 0.0, 9)
+11
+Time: 0.0004820529999999823
+
+IBA* 2 ['Braga', 'Guimaraes', 'Porto', 'Agueda', 'Coimbra', 'Leiria', 'Santarem', 'Evora', 'Beja', 'Faro'] 0.15
+50 89
+('Faro', 132, 718, 0.0, 9)
+31
+Time: 0.0020356280000000115
+
+
+-- ## Ex. 8 --------------------------------
+{Floor(b), Free(c), HandFree(), Free(a), Floor(x), On(e,w), Free(b), On(c,d), On(w,z), On(z,y), On(a,e), On(y,x), Floor(d)}

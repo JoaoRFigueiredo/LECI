@@ -1,0 +1,16 @@
+Nome -> Alojamentos Boa Vida
+
+Descrição -> O Boa Vida Alojamentos situa-se em Vagos, a 11 km do Centro de Congressos de Aveiro e a 13 km da Universidade de Aveiro, onde disponibiliza acomodações com um jardim e acesso Wi-Fi gratuito em todas as áreas, bem como estacionamento privativo gratuito para hóspedes que chegam de carro.
+
+Tipo de Quartos -> Todos os quartos do hotel incluem uma secretária, uma televisão de ecrã plano, uma casa de banho privativa, roupa de cama e toalhas. Alguns quartos do Boa Vida Alojamentos apresentam uma varanda, mas todos possuem uma máquina de café. Os quartos dispõem de um roupeiro.
+
+Preço dos Quartos -> 85 euros/noite
+
+Serviços disponíveis -> O alojamento serve um buffet de pequeno-almoço ou pequeno-almoço continental.
+
+Imagens:
+
+Promoções -> Apenas em épocas baixas
+
+Latitude -> 40.564044541347336
+Longitude -> -8.690969124917583

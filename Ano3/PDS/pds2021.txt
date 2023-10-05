@@ -1,0 +1,28 @@
+/home/joao/Desktop/ECI-Ano-3/PDS
+
+Alínea 1) ----------------------------------
+
+
+--- Campers disponíveis :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+Camper van com quatro lugares, 2 camas, mesa.
+Camper van com dois lugares, 1 cama, cozinha, mesa, WC.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. alugada por Marco Silva
+Camper van com dois lugares, 1 cama, cozinha, mesa, WC. alugada por Joana Inácio
+
+--- Campers disponíveis :
+Camper van com quatro lugares, 2 camas, mesa.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. devolvida por Marco Silva
+
+--- Campers disponíveis :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+Camper van com quatro lugares, 2 camas, mesa.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+

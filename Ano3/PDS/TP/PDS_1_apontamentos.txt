@@ -1,0 +1,75 @@
+Introdução ao Desgin de software:.
+
+Design serve de ponte entre os requisitos e o desenvolvimento.
+
+O design é necessário a vários níveis:
+-sistema
+-subsistemas ou pakcages
+-classes dentro de packages, relações de classes, interfaces com cada classes
+-atributos, métodos privados, classes internas
+-método de implementação de source code
+
+Importância:
+-> O processo de design pode ser automatizado através do uso de métodos, técnicas e padrões.
+-> Um mau design leva a uma série de consequências e entraves futuros
+
+
+Tipos de complexidade:
+-> Complexidade essencial, ou seja, inerente do problema
+-> Acidental, ou seja, complexidades que são artefactos da solução
+
+A complexidade total é a soma das duas anteriores.
+
+O objetivo principal do design é controlar a complexidade.
+
+Como lidar com a complexidade?
+-> Modularity: Subdividir a solução em passos mais pequenos (assim fica mais fácil entender)
+-> Abstração: Usar abstração para omitir detalhes que podem não ser necessários 
+-> Information Hiding: Esconder detalhes e complexidade por trás de interfaces simples
+-> Herança: Componentes gerais que poderão ser reutilizadas para definir outros elementos mais específicos
+-> Composição: Reuso de outros elementos para construir uma nova solução
+
+
+
+Características do software desgin:
+-> Não-determinístico: 2 processos de desgin não produzirão o mesmo output
+-> Heurística: Ténicas de design tender a depender de heuristicas em vez de processos repetíveis
+-> Emergente: O desgin final evolui da experiência e feedback. o design é processo iterativo e incremental.
+
+Processo de design genérico:
+-> perceber o problema
+-> construir um modelo da solução do tipo black-box
+-> Procurar por solução já existentes
+-> Construir protótipos
+-> Documnetar e revre o design
+-> fazer refactor/iterar sobre a solução
+
+
+Inputs para o processo de design:
+-> requisitos do utilizador
+-> Conhecimento da área
+-> Experiência de implementação
+
+Características desejáveis de design interno:
+-> Complexidade mínima
+-> perder coupling
+-> facilidade de realizar manutenção
+-> Extensibilidade
+-> Reusabilidade
+-> Portabilidade
+-> High fan-in
+-> Leanness
+-> Stratification
+-> Técnicas standard
+
+
+Solução?
+-> padrões
+->-> São reutilizáveis/adapatáveis ao contexto do problema.
+
+Existem 3 níveis de padrões:
+-> De arquitetura
+-> Padrões de design
+-> Línguagens de programação
+
+

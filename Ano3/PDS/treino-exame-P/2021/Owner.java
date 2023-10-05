@@ -1,0 +1,15 @@
+public class Owner extends Utilizador{
+
+    public Owner(String nome, String localidade, int idade ){
+        super(nome, localidade, idade);
+    }
+
+    public String toString(){
+        return nome;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+    
+}

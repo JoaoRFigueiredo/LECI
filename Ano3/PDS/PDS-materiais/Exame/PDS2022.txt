@@ -1,0 +1,47 @@
+/Users/gabrielhall/Documents/UA/2ºAno/PDS/Exame
+2022/06/22 13:59:22
+
+Question 1) ----------------------------------
+
+--- All Products ---
+Total: 4
+	Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100]
+	Van [code=AA22BB, description=Chevrolet Chevy, 2020, points=180]
+	Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85]
+	Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150]
+--- Shared Products ---
+ZA11ZB shared with Client [number=187, name=Peter Pereira]
+BB44ZB shared with Client [number=826, name=Mary Monteiro]
+ZA33ZB shared with Client [number=957, name=Anne Marques]
+
+--- Shared Products ---
+ZA33ZB shared with Client [number=957, name=Anne Marques]
+
+--- All Products ---
+
+Question 2 (output example) ----------------------------------
+
+--- All Products ---
+Jeep [code=JJ0011, description=Some old SUV, points=88]
+Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100]
+Van [code=AA22BB, description=Chevrolet Chevy, 2020, points=180]
+Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85]
+Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150]
+--- All Products ---
+
+Question 3) ----------------------------------
+
+--- All Products ---
+Total: 4
+	Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100]
+	Van [code=AA22BB, description=Chevrolet Chevy, 2020, points=180]
+	Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85]
+	Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150]
+--- Shared Products ---
+ZA11ZB shared with Client [number=187, name=Peter Pereira]
+BB44ZB shared with Client [number=826, name=Mary Monteiro]
+ZA33ZB shared with Client [number=957, name=Anne Marques]
+
+--- Shared Products ---
+ZA33ZB shared with Client [number=957, name=Anne Marques]
+

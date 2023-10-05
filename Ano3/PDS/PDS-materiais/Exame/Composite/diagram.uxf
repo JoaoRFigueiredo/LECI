@@ -1,0 +1,55 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>280</x><y>698</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3.v3c
+Conserva
+--
+-weight: float
+-name: String
+--
++Conserva(String, float)
+print():String
+getweight;Float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>698</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3.v3c
+Bebida
+--
+-weight: float
+-name: String
+--
++Bebida(String, float)
+print():String
+getweight;Float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>698</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3.v3c
+Doce
+--
+-weight: float
+-name: String
+--
++Doce(String, float)
+print():String
+getweight;Float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>368</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3.v3c
+Item
+--
+-indent:StringBuffer
+--
+print():String
+getweight;Float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>58</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3.v3c
+Caixa
+--
+-name: String
+-weight: float
+-totalweight:float
+--
++Caixa(String,float)
+draw():void
+add(Item):void
+print():String
+getweight;Float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1310</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Package::v3
+Cabazes
+--
++Main
+main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>240</y><w>80</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-
+m1=-children
+</panel_attributes><additional_attributes>10;130;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>550</y><w>240</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;220;150</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>550</y><w>50</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;30;150</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>550</y><w>290</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>270;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>240</y><w>50</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element></diagram>

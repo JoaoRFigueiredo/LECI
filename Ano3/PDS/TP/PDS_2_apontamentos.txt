@@ -1,0 +1,94 @@
+Princípios de GRASP
+
+GRASP -> General Responsibility Assignment software Patterns
+
+Princípios de GRASP:
+-Creator
+-Information Expert
+-Low Coupling
+-High cohesion
+-Controller
+-Polymorphism
+-Pure fabrication
+-Indirection
+-Protected Variations
+
+Principio creator:
+Quem é que cria uma instancia da classe A? Entregamos essa responsabilidade à classe B, caso um dos seguintes seja verdade:
+-> B contêm or aggrega A
+-> B records A
+-> B usa o A
+-> B tem dados de inicialização de A
+
+-> Creation pode requerer uma complexidade mais significante
+
+
+Principio de information expert:
+Como atribuir responsabilidades a objetos? atribuimos responasabilidade à classe que possui a informação necessária para concretizar
+-> facilita o encapsulamento de informação
+-> Promove coupling baixo
+-> Mas, pode causar com que uma classe fique demasiado complexa
+
+
+Principio de low coupling:
+Como reduzir o impacto de mudanças e encorajar a fazer reuso? Atribuir responsabilidade de forma a que o coupling seja baixo.
+-> coupling é necessário, caso queiramos que 2+ classes comuniquem.
+-> coupling demais pode causar:
+->-> mudanças numa classe afetam outra
+->-> são mais dificeis de perceber e manter
+->-> mais dificeis de utilizar
+
+Mas, :
+-> as classes ficam mais faceis de perceber
+-> classes não são afetadas por mudanças noutras componentes
+-> facilidade em possui controlo de classes
+->/Um maior coupling para estabilizar classes não é um grande problema
+
+
+Principio de high cohesion:
+Como manter as classes organizadas e manageable? Atribuir responsabilidade para que a coesão seja sempre alta.
+-> os beneficios sao: understandability e maintainability
+-> complementa low coupling
+
+-> por vezes é desejável criar obejtos menos coesos.
+
+
+Principio de Controller:
+Quem é que deve ser o responsável pelos eventos do UI? Se o programa recebe eventos de fontes externas fora o gui, deve-ser adicionar uma classe para fazer decouple das fontes de onde vierem os eventos.
+-> Aumenta o potencial de reutilizar
+-> Controller só envia
+-> Ser capaz de racionalizar os estados do caso do uso (verificar que as operações do sistema ocorrem em sequência legal)
+
+
+Principio de polimorfismo:
+Como lidar com comportamento baseado no tipo e não num if-then-else/switch envolvendo a classe name ou um atrivuto tag
+Quado comportamentos alternativos são selecionados, baseado no tipo de objeto, usa-se metodos polimorficos para selecionar o comportamento.
+métodos polimorficos-> dar o memso nome a serviços (diferenetes) em classes diferentes. Os serviços são implementados por métodos.
+-> Facilidade e mais rentável do que utilizar lógica de seleção expliciíta
+-> facilidade de adicionar comportamentos mais tarde
+->/ Se o polimorfismo nao for usado e em vez disso o codigo testar o ripo de objeto, essa secção de código vai crscer assim que mais tipos são adicionados.
+
+
+Principio de pure fabrication:
+Que objetos é que devem ter a responsabilidade quando nenhuma class do problema poderá tomá-lo sem violar a coesão e low coupling?
+Nem todas as responsabilidade cabem na classe do domain, como persistencia, comunicações em redes, user interaction,  etc.
+-> coesão alta é suportada, poeque as responsabilidades são factored na classe que só se foca num set especifico de tasks relacionadas.
+-> Potencial de reuse pode ser aumentado devido à presença de fine grained pure fabrication classes
+
+
+Principio de Indirection:
+Como evitar coupling direto? Como fazer decouple de objetos de forma a que low coupling é suportado e potencial de reuso continua alto?
+Atribuir responsabilidade a um obejto intermediário, para mediar entre componentes ou serviços, de forma a que eles não estejam diretamente coupled.
+-> low cpupling
+-> promove reutilizar
+
+
+Principio de protected variations:
+Como fazer o design de objetos, subsistemas e sistemas de forma a que cariações ou instabilidades em alguns elementos não tenham um impacto indesejável no resto?
+- Identificar pontos de variação previsiveis. atribuir responsabilidades para criar uma interface estável à sua volta
+-> Mantem o coupling entre classes baixo e faz com que o desgin seja mais robusto
+-> Adiciona uma quantidade pequena de overhead na forma de chamadas indiretas a métodos
+
+
+
+

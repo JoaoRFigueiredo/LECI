@@ -1,0 +1,35 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>110</x><y>126</y><w>250</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Command&lt;E&gt;
+--
++execute(col: Originator&lt;E&gt;): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>326</y><w>140</w><h>50</h></coordinates><panel_attributes>AddCommand&lt;E&gt;
+--
+-element: E</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>326</y><w>140</w><h>50</h></coordinates><panel_attributes>AddCommand&lt;E&gt;
+--
+-element: E</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>326</y><w>140</w><h>50</h></coordinates><panel_attributes>UndoCommand&lt;E&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>186</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>186</y><w>200</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80;180;80;180;140</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>186</y><w>200</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>180;10;180;80;10;80;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>366</y><w>240</w><h>100</h></coordinates><panel_attributes>CareTaker&lt;E&gt;
+--
+-savedStates: Stack&lt; Memento&lt;E&gt; &gt;
+--
++addMemento(m: Memento&lt;E&gt;): void
++hasMemento(): boolean
++getMemento(): Memento&lt;E&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>126</y><w>240</w><h>80</h></coordinates><panel_attributes>CollectionControl&lt;E&gt;
+--
+-originator: Originator&lt;E&gt; 
+--
++execute(c: Command&lt;E&gt;): void
++getOriginator(): Collection&lt;E&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>606</y><w>240</w><h>70</h></coordinates><panel_attributes>Memento&lt;E&gt;
+--
+-state: Collection&lt;E&gt;
+--
++getState(): Collection&lt;E&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>326</y><w>240</w><h>160</h></coordinates><panel_attributes>Originator&lt;E&gt;
+--
+- state: Collection&lt;E&gt;
+- careTaker: CareTaker&lt;E&gt;
+--
++add(elem: E): boolean
++remove(elem: E): boolean
++undoState(): boolean
++getState(): Collection&lt;E&gt; 
++setState(state: Collection&lt;E&gt;): void
++saveState(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>160</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1045</x><y>460</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>641</x><y>200</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>771</x><y>410</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element></diagram>

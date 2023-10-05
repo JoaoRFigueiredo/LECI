@@ -1,0 +1,20 @@
+Nome -> Casa Museu de Santo António de Vagos
+
+História -> A casa gandaresa de Santo António foi construída em 1937 por Claudino Domingues dos Santos.
+
+Estilo arquitetónico -> Do conjunto arquitetónico destacamos a fachada constituída por um motivo típico: janela-porta-janela, portão e, neste caso, novamente janela, que noutras variantes podia ser um postigo. Todos estes elementos eram emoldurados em cantaria.
+
+Acessibilidade -> Acessível a todos.
+
+Horário -> Com marcação prévia.
+
+Preço -> Gratuito
+
+Atividades -> A visita tem a duração de, aproximadamente, uma hora.
+
+Visitas guiadas? -> Sim
+
+Imagens:
+
+Latitude -> 40.52943094864787
+Longitude -> -8.68870670387432

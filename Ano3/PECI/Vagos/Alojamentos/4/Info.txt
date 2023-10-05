@@ -1,0 +1,19 @@
+Nome -> Pousio-Bungalows&Camping
+
+Descrição -> Situado em Vagos, o Pousio-Bungalows&Camping disponibiliza alojamento com uma piscina exterior sazonal, acesso Wi-Fi gratuito, um jardim e um salão partilhado.
+
+Tipo de Quartos -> 4 bungalows com 1 quarto de cama de casal, e 3 bungalows familiares com 2 quartos (para 5 pessoas).
+
+Preço dos Quartos -> 71 euros/noite. Bungalows familiares a 95 euros/noite.
+
+Serviços disponíveis -> Todas as unidades têm uma casa de banho privativa com um chuveiro, produtos de higiene pessoal gratuitos e um secador de cabelo.
+O parque de campismo tem ao dispor dos hóspedes comodidades para churrascos e um terraço.
+
+
+Imagens:
+
+Promoções -> 3 bungalows reserva a metade do preço.
+ 
+
+Latitude -> 40.570761589150706
+Longitude -> -8.697857030723142
